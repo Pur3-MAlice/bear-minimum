@@ -54,7 +54,7 @@ $gradient-radial: radial-gradient(#6A761Aff, #575E32ff, #FDF2C9ff, #624B15ff, #4
     border: none;
 }
 
-/* headings and logo */
+/* Logo and Nav Bar */
 h1, h2 {
     font-family: Teko, sans-serif;
     text-transform: uppercase;
@@ -67,18 +67,46 @@ h1, h2 {
     font-size: 320%;
     margin-left: 40px;
     line-height: 90px;
+    display:block; 
+    width:100%; 
+    clear: both;
 }
 
-.nav-bar li {
-    list-style: none;
+#nav-bar {
+    display:block; 
+    width:100%; 
+    overflow: auto;
+    clear: both;
 }
 
-.nav-bar a:hover {
-    border-bottom: 1px solid #FDF2C9ff;
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
 }
 
-.active {
-    border-bottom: 1px solid #FDF2C9ff;
+#nav-bar li {
+    float: left;
+    width: 25%;
+}
+  
+#nav-bar a {
+    font-family: Teko, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #6A761Aff;
+    display: block;
+    padding: 8px;
+    background-color: #000;
+    font-size: 25px;
+    text-align: center;
+}
+
+#nav-bar li a:hover {
+    color: white;
 }
 
 /* hero image */
