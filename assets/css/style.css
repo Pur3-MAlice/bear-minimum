@@ -84,7 +84,6 @@ h1, h2 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000;
 }
 
 #nav-bar li {
@@ -97,16 +96,20 @@ h1, h2 {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 4px;
-    color: #6A761Aff;
+    color: #fff;
     display: block;
     padding: 8px;
-    background-color: #000;
+    background-color: #6A761Aff;
     font-size: 25px;
     text-align: center;
 }
 
 #nav-bar li a:hover {
-    color: white;
+    color: #000;
+}
+
+#nav-bar #active {
+    color: #fff;
 }
 
 /* hero image */
