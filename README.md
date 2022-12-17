@@ -46,6 +46,14 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 #### *Mobile*
 ### **Design**
 #### *Color Scheme*
+* Having already chosen the Hero/Main image for the Home page I wanted to pick a color pallette that would tie in cohesivly with the image (which would be used universally around the site). I knew that coolors.co had a image color extraction which could pick out the exact colors that would work to this effect. The effect I wanted to pull off was natural, elegant and calming. The Visual Identity of this website should give the user a calm, relaxed feeling. No overly bright or neon colors. 
+
+![Color Pallette Picker](docs/screenshot/color-pallette-picker.png)
+
+* I also knew that coolors.co gave you all the HEX, rbga and HSL codes ready to copy and paste for the colors picked.
+![Color Export](docs/screenshot/css-pallette-export.png)
+
+
 #### *Typography*
 
 ## **Universal Features**
