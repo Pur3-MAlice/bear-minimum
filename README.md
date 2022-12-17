@@ -54,6 +54,7 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 
 
 #### *Typography*
+* Whilst doing research into the best Google Font combinations, I came across this article: [21 Google Fonts Combinations For Websites & Brands](https://www.garett.co/21-google-fonts-combinations-for-websites-brands). The Teko + Montserrat combination seemed to be the best suited to the aesthetic of the page. Plus their readability is very good, so this is a plus for the accessibility of the website.
 
 ## **Universal Features**
 ### **Header Element**

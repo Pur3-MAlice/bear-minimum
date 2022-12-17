@@ -46,11 +46,51 @@ $gradient-bottom-left: linear-gradient(315deg, #6A761Aff, #575E32ff, #FDF2C9ff, 
 $gradient-radial: radial-gradient(#6A761Aff, #575E32ff, #FDF2C9ff, #624B15ff, #49390Dff);
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Teko&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
-/*Home Page*/
-li {
+/* headings and logo */
+h1, h2 {
+    font-family: Teko, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #6A761Aff;
+}
+
+#logo {
+    float: left;
+    font-size: 320%;
+    margin-left: 40px;
+    line-height: 90px;
+}
+
+.nav-bar li {
     list-style: none;
+}
+
+.nav-bar a:hover {
+    border-bottom: 1px solid #FDF2C9ff;
+}
+
+.active {
+    border-bottom: 1px solid #FDF2C9ff;
+}
+
+/* hero image */
+#main-image-out {
+    height: 600px;
+    width: 100%;   
+    overflow: hidden;
+    position: relative;
+}
+
+#call-to-action, #call-to-action h2 {
+    color: #000;
 }
 
 #main-image {
