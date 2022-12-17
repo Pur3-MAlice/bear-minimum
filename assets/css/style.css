@@ -48,6 +48,10 @@ $gradient-radial: radial-gradient(#6A761Aff, #575E32ff, #FDF2C9ff, #624B15ff, #4
 */
 
 
+/*Home Page*/
+li {
+    list-style: none;
+}
 
 #main-image {
     height: 400px;

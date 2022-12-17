@@ -47,10 +47,9 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ### **Design**
 #### *Color Scheme*
 * Having already chosen the Hero/Main image for the Home page I wanted to pick a color pallette that would tie in cohesivly with the image (which would be used universally around the site). I knew that coolors.co had a image color extraction which could pick out the exact colors that would work to this effect. The effect I wanted to pull off was natural, elegant and calming. The Visual Identity of this website should give the user a calm, relaxed feeling. No overly bright or neon colors. 
-
 ![Color Pallette Picker](docs/screenshot/color-pallette-picker.png)
 
-* I also knew that coolors.co gave you all the HEX, rbga and HSL codes ready to copy and paste for the colors picked.
+* I also knew that coolors.co gave you all the HEX, rbga and HSL codes ready to copy and paste for the colors picked. By consolidating each branding asset (images, colors, fonts) into a cohesive aesthetic, this develops brand recognition, which in turn is good UX.
 ![Color Export](docs/screenshot/css-pallette-export.png)
 
 
@@ -64,7 +63,7 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ### **Hero Image**
 * For the Hero Image for this project I decided on a nature theme. I chose the Hero Image before deciding on fonts and color schemes, as I wanted to make them both cohesive with the Hero Image. The Hero Image will be used throughout the webpages to add a layer of continunity. The first image I chose from Pexels was too large and was distorted when pushed through. So I read up on best practices for webpage/desktop and found a helpful blog post from Hubspot: "Ultimate Guide to Hero Images [Best Practices + Examples]". I found an appropriate image that then i used to create a color scheme which is described above. 
 
-***ADD SCREENSHOT HERE
+![Hero Image with CTA](docs/screenshot/)
 This image is of a forest dappled with sunlight.
 ### **Anchor Tags**
 ### **Footer**
