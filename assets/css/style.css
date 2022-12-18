@@ -52,6 +52,7 @@ $gradient-radial: radial-gradient(#6A761Aff, #575E32ff, #FDF2C9ff, #624B15ff, #4
     margin: 0;
     padding: 0;
     border: none;
+    overflow-x: hidden;
 }
 
 /* Logo and Nav Bar */
@@ -152,6 +153,7 @@ h1, h2 {
     bottom: 200px;
     right: 150px;
     position: absolute;
+    overflow: hidden;
 }
 
 #call-to-action, h2, a {
@@ -162,3 +164,6 @@ h1, h2 {
 #call-to-action a:hover {
     color: #FDF2C9ff;
 }
+
+/* footer and social media */
+
