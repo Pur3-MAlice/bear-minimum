@@ -90,7 +90,8 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 
 ## **Credits**
 ### **References**
-* Whilst I did try to deviate as much as possible, this project was very influenced by CI’s Love Running Project. Notable similarities are the use of Hero-Images, the Social Media Footer and the style of the Nav Bar. 
-* I would also like to mention that, before starting this project, I did pursue other CI student’s projects, for both code inspiration and direction. Whilst no code was directly taken from these other projects, I can say that my research did influence how I built the project initially. (Notable mentions: David Bowers github: dnlbowers, who BLAH BLAH BLAH)
+* Whilst I did try to deviate as much as possible, this project was very influenced by CI’s Love Running Project. Notable similarities are the use of Hero-Images and floated text on top of the Hero-Image, as well as the Social Media icons in the Footer. 
+* I would also like to mention that, before starting this project, I did peruse other CI student’s projects, for both code inspiration and direction. Whilst no code was directly taken from these other projects, I can say that my research did influence how I built the project and create my README.md initially - strong deviations were taken after my research and the inital build. (Notable mentions: David Bowers github: dnlbowers, who I asked permission to do this.)
+* I did rely on stack overflow, W3schools, and MDN web docs for general references and problem solving throughout the project.
 ### **Content**
 ### **Media**

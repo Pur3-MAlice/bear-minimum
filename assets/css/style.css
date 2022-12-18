@@ -55,6 +55,12 @@ $gradient-radial: radial-gradient(#6A761Aff, #575E32ff, #FDF2C9ff, #624B15ff, #4
     overflow-x: hidden;
 }
 
+#copyright p {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 0.7em;
+}
+
 /* Logo and Nav Bar */
 h1, h2 {
     font-family: Teko, sans-serif;
@@ -166,12 +172,22 @@ h1, h2 {
 /* footer and social media */
 footer {
     background-color: #6A761Aff;
-}
-
-.social-networks {
+    font-size: 0.75em;
     text-align: center;
-    text-decoration: none;
-}
+    clear: both;
+    padding-top: 50px; 
+  }
+  
+  .footercontact {
+    text-align:left;
+    width: 25%;
+  }
+  
+  #copyright {
+    float: right;
+    padding-top: 30px;
+
+  }
 
 .social-networks a {
     text-decoration: none;
