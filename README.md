@@ -69,9 +69,11 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ![Nav Bar Active Feature](docs/screenshot/nav-bar-image.png)
 ### **Hero Image**
 * For the Hero Image for this project I decided on a nature theme. I chose the Hero Image before deciding on fonts and color schemes, as I wanted to make them both cohesive with the Hero Image. The Hero Image will be used throughout the webpages to add a layer of continunity. The first image I chose from Pexels was too large and was distorted when pushed through. So I read up on best practices for webpage/desktop and found a helpful blog post from Hubspot: "Ultimate Guide to Hero Images [Best Practices + Examples]". I found an appropriate image that then i used to create a color scheme which is described above. 
+* I also employed the zoom effect to the main image. Again this was inspired by the Love Running Project, as i liked the effect it had for the User's Experience.
 
-![Hero Image with CTA](docs/screenshot/)
-This image is of a forest dappled with sunlight.
+![Hero Image with CTA](docs/screenshot/main-image-call-to-action.png)
+* This image is of a forest dappled with sunlight.
+* The idea for the Hero Image with the floating CTA was directly inspired by the Love Running Project. However the code was adapted quite a bit for this website, also the user's experience of this is a Call to Action, rather than infomation. It also serves to give the user the explicit subject matter of the site - the site aim is directly stated.
 ### **Anchor Tags**
 ### **Footer**
 
