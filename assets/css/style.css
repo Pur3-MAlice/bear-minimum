@@ -66,32 +66,32 @@ h1, h2 {
     float: left;
     font-size: 320%;
     margin-left: 40px;
-    line-height: 90px;
-    display:block; 
-    width:100%; 
+    line-height: 95px;
+    display: block; 
+    width: 100%; 
     clear: both;
 }
 
-#nav-bar {
-    display:block; 
-    width:100%; 
+.nav-bar {
+    display: block; 
+    width: 100%; 
     overflow: auto;
     clear: both;
 }
 
-#nav-bar ul {
+.nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-#nav-bar li {
+.nav-bar li {
     float: left;
     width: 25%;
 }
   
-#nav-bar a {
+.nav-bar a {
     font-family: Teko, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -104,12 +104,12 @@ h1, h2 {
     text-align: center;
 }
 
-#nav-bar li a:hover {
-    color: #000;
+#active, a {
+    text-decoration: underline;
 }
 
-#nav-bar #active {
-    color: #fff;
+.nav-bar li a:hover {
+    color: #000;
 }
 
 /* hero image */
@@ -122,6 +122,7 @@ h1, h2 {
 
 #call-to-action, #call-to-action h2 {
     color: #000;
+
 }
 
 #main-image {
