@@ -172,18 +172,32 @@ footer {
     padding-top: 25px; 
 }
 
-.container, .about {
-    border: 1px solid #fff;
+.container {
     display: flex;
-    padding-bottom: 15px;
 }
 
-.about{
-  background: #ce8888;
-  flex-basis: 200px;
-  height: 100px;
-  margin-right: 165px;
-  margin-left: 150px;
+.container .about h4 {
+    margin: 0;
+    float: left;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+
+.container, .about p {
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 14px;
+}
+
+.about {
+  width: 500px;  
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: aquamarine;
 }
 
 #copyright {
