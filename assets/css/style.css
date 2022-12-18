@@ -112,7 +112,7 @@ h1, h2 {
     color: #000;
 }
 
-/* hero image */
+/* hero image and cta overlay */
 #main-image-out {
     height: 600px;
     width: 100%;   
@@ -120,13 +120,45 @@ h1, h2 {
     position: relative;
 }
 
-#call-to-action, #call-to-action h2 {
-    color: #000;
-
-}
-
 #main-image {
     height: 400px;
     width: 100%;
     background: url(/assets/images/hero-image-forest.jpg) no-repeat center center;
+    /*animates zoom effect on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#call-to-action {
+    font-size: 130%;
+    text-transform: uppercase;
+    font-family: Teko, sans-serif;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: rgba(73, 57, 13, 0.7);
+    bottom: 200px;
+    right: 150px;
+    position: absolute;
+}
+
+#call-to-action, h2, a {
+    color: #fff;
+    font-size: 30px;
+}
+
+#call-to-action a:hover {
+    color: #FDF2C9ff;
 }

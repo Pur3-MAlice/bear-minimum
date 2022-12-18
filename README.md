@@ -64,8 +64,9 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * I wanted to add a traditional Navigation bar at the top of my website so the user could easily get from one page to another. 
 * The navigation bar appears on all the pages, including the Sign Up form feedback page.
 * It contains links to the Home, About, Blogs, and Sign Up pages to allow easy navigation around the website.
-* The below image shows the user's current page highlighted.
+* The below image shows the user's current page highlighted using white underline, this is a subtle addition trying to make the users expericnes as calm and enjoyable as possible.
 * The hover feature was employed to turn the lettering from white to black to make sure the user is aware that this is an active link which they can click.
+![Nav Bar Active Feature](docs/screenshot/nav-bar-image.png)
 ### **Hero Image**
 * For the Hero Image for this project I decided on a nature theme. I chose the Hero Image before deciding on fonts and color schemes, as I wanted to make them both cohesive with the Hero Image. The Hero Image will be used throughout the webpages to add a layer of continunity. The first image I chose from Pexels was too large and was distorted when pushed through. So I read up on best practices for webpage/desktop and found a helpful blog post from Hubspot: "Ultimate Guide to Hero Images [Best Practices + Examples]". I found an appropriate image that then i used to create a color scheme which is described above. 
 
