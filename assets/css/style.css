@@ -84,7 +84,6 @@ h1, h2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 .nav-bar li {
@@ -153,7 +152,6 @@ h1, h2 {
     bottom: 200px;
     right: 150px;
     position: absolute;
-    overflow: hidden;
 }
 
 #call-to-action, h2, a {
@@ -166,4 +164,33 @@ h1, h2 {
 }
 
 /* footer and social media */
+footer {
+    background-color: #6A761Aff;
+}
+
+.social-networks {
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-networks a {
+    text-decoration: none;
+}
+
+.social-networks i:hover {
+    color: rgba(73, 57, 13, 0.7);
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 120%;
+    color: #fff;
+    position: relative;
+    display: inline;
+    margin-right: 150px;
+    margin-left: 150px;
+}
 
