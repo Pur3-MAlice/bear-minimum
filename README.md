@@ -28,12 +28,26 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
     * [***Blog Page Content***](#blog-page-content)
     * [***Sign up Page Content***](#fsign-up-page-content)
 1. [**Future Improvements**](#future-improvements)
-1. [**Testing**](#testing)
-1. [**Deployment**](#deployment)
 1. [**Credits**](#credits)
     * [***References***](#references)
     * [***Content***](#content)
     * [***Media***](#media)
+
+## Testing:
+1. [***During Development Testing***](#during-development-testing)
+    * [**Manual Testing**](#manual-testing)
+    * [**Bugs and Fixes**](#bugs-and-fixes)
+1. [**Post Development Testing**](#post-development-testing)
+    * [**Validators**](#validators)
+      * [*HTML*](#html---httpsvalidatorw3orgnu)
+      * [*CSS*](#css---httpsjigsaww3orgcss-validator)
+    * [**Lighthouse Scores**](#lighthouse-scores)
+      * [*Desktop Version:*](#desktop-version)
+      * [*Mobile Version*](#mobile-version)
+      * [*Lighthouse Score*](#lighthouse-score)
+    * [**Accessability**](#accessability)
+1. [**Deployment**](#deployment)
+
 
 
 ## **Planning**
@@ -83,8 +97,6 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ### **Sign up Page Content**
 
 ## **Future Improvements**
-
-## **Testing**
 
 ## **Deployment**
 

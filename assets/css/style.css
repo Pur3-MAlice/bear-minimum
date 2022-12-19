@@ -114,7 +114,7 @@ h1, h2 {
 
 /* hero image and cta overlay */
 #main-image-out {
-    height: 600px;
+    height: 500px;
     width: 100%;   
     overflow: hidden;
     position: relative;
@@ -149,8 +149,8 @@ h1, h2 {
     padding-top: 20px;
     padding-left: 30px;
     background-color: rgba(73, 57, 13, 0.7);
-    bottom: 200px;
-    right: 150px;
+    bottom: 150px;
+    right: 195px;
     position: absolute;
 }
 
@@ -163,21 +163,19 @@ h1, h2 {
     color: #FDF2C9ff;
 }
 
-/* footer and social media */
-footer {
-    background-color: #6A761Aff;
-    font-size: 0.75em;
-    text-align: center;
-    clear: both;
-    padding-top: 25px; 
-}
 
+/* company info */
 .container {
     display: flex;
+    float: left;
+    width: 100%;
+    background-color: #6A761Aff;
+    position: fixed;
+    bottom: 200px;
+    padding-top: 10px;
 }
 
-.container .about h4 {
-    margin: 0;
+.container, .about, h4 {
     float: left;
     text-transform: uppercase;
     text-align: left;
@@ -186,7 +184,7 @@ footer {
     font-size: 16px;
 }
 
-.container, .about p {
+.container, .about, p {
     text-align: left;
     font-family: Montserrat, sans-serif;
     color: #fff;
@@ -198,7 +196,10 @@ footer {
   margin-right: 10px;
   margin-left: 10px;
   background-color: aquamarine;
+  width: 33%
 }
+
+/* copyright */
 
 #copyright {
     float: right;
@@ -207,8 +208,19 @@ footer {
 
 #copyright p {
     font-family: Montserrat, sans-serif;
-    color: #fff;
-    font-size: 0.7em;
+    color: #000;
+    font-size: 0.9em;
+}
+
+/* social media */
+footer {
+    background-color: #6A761Aff;
+    clear: both;
+    padding-top: 25px; 
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
 }
 
 .social-networks a {
@@ -219,16 +231,13 @@ footer {
     color: rgba(73, 57, 13, 0.7);
 }
 
-.social-networks > li {
-    display: inline;
+.social-networks li {
+    float: left;
+    width: 25%;
 }
 
 .social-networks i {
     font-size: 120%;
     color: #fff;
-    position: relative;
-    display: inline;
-    margin-right: 150px;
-    margin-left: 150px;
 }
 
