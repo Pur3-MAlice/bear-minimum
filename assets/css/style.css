@@ -49,7 +49,7 @@ $gradient-radial: radial-gradient(#6A761Aff, #575E32ff, #FDF2C9ff, #624B15ff, #4
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Teko&display=swap');
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: none;
     overflow-x: hidden;
@@ -64,13 +64,8 @@ h1, h2 {
 }
 
 #logo {
-    float: left;
     font-size: 320%;
-    margin-left: 40px;
-    line-height: 95px;
-    display: block; 
-    width: 100%; 
-    clear: both;
+    text-align: center;
 }
 
 .nav-bar {
@@ -82,7 +77,7 @@ h1, h2 {
 
 .nav-bar ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -114,29 +109,17 @@ h1, h2 {
 
 /* hero image and cta overlay */
 #main-image-out {
-    height: 500px;
+    height: 400px;
     width: 100%;   
     overflow: hidden;
     position: relative;
+    padding-bottom: 25px;
 }
 
 #main-image {
     height: 400px;
     width: 100%;
     background: url(/assets/images/hero-image-forest.jpg) no-repeat center center;
-    /*animates zoom effect on loading page*/
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
 }
 
 #call-to-action {
@@ -163,67 +146,38 @@ h1, h2 {
     color: #FDF2C9ff;
 }
 
-/* company info */
-.container {
-    display: flex;
-    float: left;
-    width: 100%;
-    height: 100px;
-    background-color: #6A761Aff;
-    position: fixed;
-    bottom: 75px;
-    padding-top: 10px;
-}
+/* blog links and images */
 
-.footer-info { 
-    width: 100%;
-  }
-
-.footer-info, h4 {
-    text-transform: uppercase;
-    font-family: Montserrat, sans-serif;
-    color: #fff;
-    font-size: 16px;
-}
-
-.footer-info > p {
-    text-align: left;
-    font-family: Montserrat, sans-serif;
-    color: #fff;
-    font-size: 14px;
-    margin-top: 5px;
-    text-transform: none;
-}
-
-#address {
-    margin-left: 75px;
-}
-
-#reach-us {
-    margin-left: 5px;
-}
-
-#philosophy {
-    text-align: right;
-    float: right;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-#philosophy p {
-    text-align: right;
-    float: right;
+#blog-one, #blog-two, #blog-three, #second-cta{
+    color: #000;
 }
 
 /* social media and copyright*/
 footer {
     background-color: #6A761Aff;
-    clear: both;
-    padding-top: 20px; 
-    position: fixed;
-    bottom: 0px;
+    height: auto;
+    position: relative;
+    padding-bottom: 0;
+    bottom: 0;
     width: 100%;
     text-align: center;
+} 
+
+.philosophy {
+    font-family: Montserrat, sans-serif;
+    color: #fff; 
+    padding: 7.5px;
+} 
+
+.social-networks li {
+    float: left;
+    width: 25%;
+    padding-top: 7.5px;
+}
+
+.social-networks i {
+    font-size: 120%;
+    color: #fff;
 }
 
 .social-networks a {
@@ -232,16 +186,6 @@ footer {
 
 .social-networks i:hover {
     color: rgba(73, 57, 13, 0.7);
-}
-
-.social-networks li {
-    float: left;
-    width: 25%;
-}
-
-.social-networks i {
-    font-size: 120%;
-    color: #fff;
 }
 
 #copyright {
@@ -253,4 +197,4 @@ footer {
     font-family: Montserrat, sans-serif;
     color: #fff;
     font-size: 0.85em; 
-}
+} 

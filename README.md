@@ -17,7 +17,6 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
         * [*Typography*](#typography)
 1. [**Universal Features**](#universal-features)
     * [***Header Element***](#header-element)
-        * [*Title*](#title)
         * [*Logo*](#logos)
         * [*Nav Bar*](#nav-bar)
     * [***Hero Image***](#hero-image)
@@ -72,13 +71,15 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 
 ## **Universal Features**
 ### **Header Element**
-#### *Title*
 #### *Logo*
+* The website logo is strong and minimalistic, to fit in with the core values of the website. 
+* The logo will appear on every webpage for continuity.
+* The logo is strongly presented and at the top center of the page so the user's eye naturally goes down the center of the page, where most of the information will be held.
 #### *Nav Bar*
 * I wanted to add a traditional Navigation bar at the top of my website so the user could easily get from one page to another. 
 * The navigation bar appears on all the pages, including the Sign Up form feedback page.
 * It contains links to the Home, About, Blogs, and Sign Up pages to allow easy navigation around the website.
-* The below image shows the user's current page highlighted using white underline, this is a subtle addition trying to make the users expericnes as calm and enjoyable as possible.
+* The below image shows the user's current page highlighted using white underline, this is a subtle addition trying to make the users experinces as calm and enjoyable as possible.
 * The hover feature was employed to turn the lettering from white to black to make sure the user is aware that this is an active link which they can click.
 ![Nav Bar Active Feature](docs/screenshot/nav-bar-image.png)
 ### **Hero Image**
