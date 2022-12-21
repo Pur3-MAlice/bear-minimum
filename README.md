@@ -98,13 +98,18 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ### **Sign up Page Content**
 
 ## **Future Improvements**
+* Somthing I did want to do, but would have been too time consuming to do was to make the blog section on the home page more spread out rather than a singular coloumn.
+* I would also make sure that in future blog posts would be continually added, as well as other types of media, such a a shortform video page from content creators that focus on Environmentalism.
+* Another improvment 
 
 ## **Deployment**
 
 ## **Credits**
 ### **References**
-* Whilst I did try to deviate as much as possible, this project was very influenced by CI’s Love Running Project. Notable similarities are the use of Hero-Images and floated text on top of the Hero-Image, as well as the Social Media icons in the Footer. 
-* I would also like to mention that, before starting this project, I did peruse other CI student’s projects, for both code inspiration and direction. Whilst no code was directly taken from these other projects, I can say that my research did influence how I built the project and create my README.md initially - strong deviations were taken after my research and the inital build. (Notable mentions: David Bowers github: dnlbowers, who I asked permission to do this.)
-* I did rely on stack overflow, W3schools, and MDN web docs for general references and problem solving throughout the project.
+* Whilst I did try to deviate as much as possible, this project was influenced by CI’s Love Running Project. Notable similarities are the use of Hero-Images and floated text on top of the Hero-Image, as well as the Social Media icons in the Footer. 
+* I would also like to mention that, before starting this project, I did peruse other CI student’s projects, for both code inspiration and direction. Whilst no code was directly taken from these other projects, I can say that my research did influence how I built the project and created my README.md initially - strong deviations were taken after my research and the inital build. (Notable mentions: David Bowers github: dnlbowers, who I asked permission to do this.)
+* I did rely on stack overflow, W3schools, CSS-TRICKS and MDN web docs for general references and problem solving throughout the project.
 ### **Content**
+* Content for the blogs is taken from the book Wild. 
 ### **Media**
+* All images were taken from Pexels.com.
