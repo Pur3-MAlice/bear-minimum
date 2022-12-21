@@ -100,7 +100,7 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ## **Future Improvements**
 * Somthing I did want to do, but would have been too time consuming to do was to make the blog section on the home page more spread out rather than a singular coloumn.
 * I would also make sure that in future blog posts would be continually added, as well as other types of media, such a a shortform video page from content creators that focus on Environmentalism.
-* Another improvment 
+* Another improvment would to have other pages linking out both live community events, a map of zero-waste shops in the area where the user is and a.
 
 ## **Deployment**
 
