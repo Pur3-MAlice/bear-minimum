@@ -147,10 +147,35 @@ h1, h2 {
 }
 
 /* blog links and images */
-
-#blog-one, #blog-two, #blog-three, #second-cta{
-    color: #000;
+#blog-header h3 {
+    color: #6A761Aff;
+    text-align: center;
+    font-size: 320%;
+    font-family: Teko, sans-serif;
+    text-transform: uppercase;
 }
+
+#blog-section {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  #blog-section a {
+    color: #000;
+    text-decoration: none;
+    font-style: Montserrat, sans-serif;
+    font: 500 100%/1.5 system-ui;
+  }
+
+  #blog-section img {
+    max-width: 100%;
+    height: auto;
+  }
 
 /* social media and copyright*/
 footer {
@@ -198,3 +223,17 @@ footer {
     color: #fff;
     font-size: 0.85em; 
 } 
+
+/* media q*/
+@media (max-width: 650px) {
+    #blog-section body {
+      display: block;
+      font-size: 80%;
+    }
+    #blog-section a {
+      position: relative;
+      margin: -3rem 0 2rem 1rem;
+      padding: 1rem;
+      background: rgba(73, 57, 13, 0.7);
+    }
+  }
