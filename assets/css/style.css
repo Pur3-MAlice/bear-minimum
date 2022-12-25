@@ -159,8 +159,8 @@ h1, h2 {
 #about-teaser {
     margin: auto;
     width: 75%;
-    border: 3px solid green;
     padding: 10px;
+    padding-bottom: 50px;
 }
 
 #about-teaser h3 {
@@ -171,14 +171,6 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-#second-cta {
-    color: #000;
-    text-decoration: none;
-    font-style: Montserrat, sans-serif;
-    font: 500 100%/1.5 system-ui;
-    text-align: center;
-}
-
 #about-teaser p {
     color: #000;
     text-decoration: none;
@@ -187,7 +179,18 @@ h1, h2 {
     text-align: center;
 }
 
-  
+#second-cta {
+    color: #000;
+    text-decoration: none;
+    font-style: Montserrat, sans-serif;
+    font: 500 100%/1.5 system-ui;
+    text-align: center;
+}
+
+#about-teaser a:hover {
+    color: #6A761Aff;
+    text-decoration: underline;
+}
 
 /* social media and copyright*/
 footer {

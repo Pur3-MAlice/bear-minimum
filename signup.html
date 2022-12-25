@@ -21,26 +21,28 @@
         <nav class="nav-bar"> 
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="blogs.html" id="active">Blogs</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
                 <li><a href="about.hmtl">About</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="signup.html" id="active">Sign Up</a></li>
             </ul>      
         </nav>
     </header>
-    
-    <section id="blog-header">
-        <h3>Take your first step towards sustainibility with the blogs below</h3>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up!<i class="fas fa-heartbeat"></i></h2>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" name="last_name" type="text" required>
+            
+            <label for="email" >Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+            
+            <input class="join-button" type="submit" value="I want to Join!">
+        </form>
+        
     </section>
-
-    <section id="blog-section">
-        <img src='/assets/images/brown-squirrel.jpg' width="400" height="300" alt='reddish brown squirrel perched on moss covered log'>
-        <a href="#" id="blog-one">Blog One and image. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo in, impedit quod dicta est facilis consectetur laborum eius vitae voluptate asperiores, vel ipsa laboriosam odit esse beatae nesciunt architecto deserunt.</a>
-        <img src='/assets/images/boots-on-log.jpg' width="400" height="300" alt='brown laced boots stood on moss covered rock'>
-        <a href="#" id="blog-two">Blog Two and image. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae nisi quidem sint eius quos corrupti, perferendis unde at. Ipsam saepe error, quos iste enim temporibus voluptatum ea harum inventore neque!</a>
-        <img src='/assets/images/colorful-wildflowers.jpg' width="400" height="300" alt='field of colorful wildflowers'>
-        <a href="#" id="blog-three">Blog Three and image. Aut dolor aspernatur cupiditate repudiandae eos accusantium inventore molestiae sequi earum perspiciatis qui odio minima magni, iste fugit reiciendis atque tenetur quaerat itaque incidunt, consequuntur esse. Accusantium doloribus odit debitis.</a>
-    </section>
-
     <footer>
         <h3 class="philosophy">Our Philosophy</h3>
         <p class="philosophy">Help every person take small steps towards a better and more sustainable future</p>
@@ -64,4 +66,4 @@
     </footer>
     <!---Font Awesome Script-->
     <script src="https://kit.fontawesome.com/9096438b6b.js" crossorigin="anonymous"></script>
-</body>    
+</body> 
