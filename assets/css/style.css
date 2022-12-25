@@ -1,31 +1,10 @@
 /* Color Pallette
-CSS HEX
---olive: #6A761Aff;
---army-green: #575E32ff;
---lemon-meringue: #FDF2C9ff;
---field-drab: #624B15ff;
---olive-drab-7: #49390Dff;
-
-CSS HSL
---olive: hsla(68, 64%, 28%, 1);
---army-green: hsla(70, 31%, 28%, 1);
---lemon-meringue: hsla(47, 93%, 89%, 1);
---field-drab: hsla(42, 65%, 23%, 1);
---olive-drab-7: hsla(44, 70%, 17%, 1);
-
 SCSS HEX 
 $olive: #6A761Aff;
 $army-green: #575E32ff;
 $lemon-meringue: #FDF2C9ff;
 $field-drab: #624B15ff;
 $olive-drab-7: #49390Dff;
-
-SCSS HSL
-$olive: hsla(68, 64%, 28%, 1);
-$army-green: hsla(70, 31%, 28%, 1);
-$lemon-meringue: hsla(47, 93%, 89%, 1);
-$field-drab: hsla(42, 65%, 23%, 1);
-$olive-drab-7: hsla(44, 70%, 17%, 1);
 
 SCSS RGB
 $olive: rgba(106, 118, 26, 1);
@@ -44,7 +23,6 @@ $gradient-bottom-right: linear-gradient(135deg, #6A761Aff, #575E32ff, #FDF2C9ff,
 $gradient-top-left: linear-gradient(225deg, #6A761Aff, #575E32ff, #FDF2C9ff, #624B15ff, #49390Dff);
 $gradient-bottom-left: linear-gradient(315deg, #6A761Aff, #575E32ff, #FDF2C9ff, #624B15ff, #49390Dff);
 $gradient-radial: radial-gradient(#6A761Aff, #575E32ff, #FDF2C9ff, #624B15ff, #49390Dff);
-
 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Teko&display=swap');
 
