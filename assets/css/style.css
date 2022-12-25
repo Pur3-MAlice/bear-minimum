@@ -155,6 +155,40 @@ h1, h2 {
     height: auto;
   }
 
+/* about teaser second cta*/
+#about-teaser {
+    margin: auto;
+    width: 75%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+#about-teaser h3 {
+    color: #6A761Aff;
+    text-align: center;
+    font-size: 320%;
+    font-family: Teko, sans-serif;
+    text-transform: uppercase;
+}
+
+#second-cta {
+    color: #000;
+    text-decoration: none;
+    font-style: Montserrat, sans-serif;
+    font: 500 100%/1.5 system-ui;
+    text-align: center;
+}
+
+#about-teaser p {
+    color: #000;
+    text-decoration: none;
+    font-style: Montserrat, sans-serif;
+    font: 500 100%/1.5 system-ui;
+    text-align: center;
+}
+
+  
+
 /* social media and copyright*/
 footer {
     background-color: #6A761Aff;
