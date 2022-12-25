@@ -239,6 +239,54 @@ footer {
     font-size: 0.85em; 
 } 
 
+/* signup form */
+ #signup-image {   
+    height: 703px;
+    width: 100%;
+    background: url(/assets/images/forest-canopy.jpg) no-repeat center center;
+ }
+
+.form {
+    clear: left;
+    
+    color: #fff;
+    background-color: rgba(73, 57, 13, 0.6);
+    left: 10%;
+    font-style: Montserrat, sans-serif;
+    text-align: center;
+    align: center;
+    display: block;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    height: 33px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+}
+
+.text-input:hover {
+    border-color: #6A761Aff;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #6A761Aff;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #6A761Aff;
+}
+
 /* media q*/
 @media (max-width: 650px) {
     #blog-section body {
@@ -249,6 +297,5 @@ footer {
       position: relative;
       margin: -3rem 0 2rem 1rem;
       padding: 1rem;
-      background: rgba(73, 57, 13, 0.7);
     }
   }
