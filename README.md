@@ -106,6 +106,7 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ### **Footer**
 ## **Page Content Features**
 ### **About Content**
+* 
 ### **Blog Page Content**
 ### **Sign up Page Content**
 * For the Sign Up page I wanted to keep the devices clear of distraction. To convey a calm, modern and sleek look the only thing avalible on this page is the sign up.
@@ -121,7 +122,7 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ## **Deployment**
 ## **Credits**
 ### **References**
-* Whilst I did try to deviate as much as possible, this project was influenced by CI’s Love Running Project. Notable similarities are the use of Hero-Images and floated text on top of the Hero-Image, as well as the Social Media icons in the Footer. 
+* Whilst I did try to deviate as much as possible, this project was influenced by CI’s Love Running Project. Notable similarities are the use of Hero-Images and floated text on top of the Hero-Image, the Missions section in the About Pag is also influenced by the project. 
 * I would also like to mention that, before starting this project, I did peruse other CI student’s projects, for both code inspiration and direction. Whilst no code was directly taken from these other projects, I can say that my research did influence how I built the project and created my README.md initially - strong deviations were taken after my research and the inital build. (Notable mentions: David Bowers github: dnlbowers, who I asked permission to do this.)
 * I did rely on stack overflow, W3schools, CSS-TRICKS and MDN web docs for general references and problem solving throughout the project.
 ### **Content**
