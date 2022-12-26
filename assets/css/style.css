@@ -239,12 +239,31 @@ footer {
     font-size: 0.85em; 
 } 
 
+/*blog page*/
+#blog-page-call-to-action {
+    font-size: 130%;
+    text-transform: uppercase;
+    font-family: Teko, sans-serif;
+    letter-spacing: 4px;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    background-color: rgba(73, 57, 13, 0.7);
+    bottom: 150px;
+    position: absolute;
+    text-align: center;
+}
+
+#blog-page-call-to-action a:hover {
+    color: #FDF2C9ff;
+}
+
 /* signup form */
- #signup-image {   
+#signup-image {   
     height: 703px;
     width: 100%;
     background: url(/assets/images/forest-canopy.jpg) no-repeat center center;
- }
+}
 
 .box-form {
     padding: 12.5% 10% 10% 12.5%;
@@ -304,4 +323,4 @@ footer {
       margin: -3rem 0 2rem 1rem;
       padding: 1rem;
     }
-  }
+}
