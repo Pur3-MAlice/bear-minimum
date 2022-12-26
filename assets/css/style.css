@@ -246,16 +246,19 @@ footer {
     background: url(/assets/images/forest-canopy.jpg) no-repeat center center;
  }
 
-.form {
+.box-form {
+    padding: 12.5% 10% 10% 12.5%;
+}
+
+.box-form h2 {
+    padding: 25px;
+}
+
+.input-form {
     clear: left;
-    
     color: #fff;
     background-color: rgba(73, 57, 13, 0.6);
-    left: 10%;
-    font-style: Montserrat, sans-serif;
     text-align: center;
-    align: center;
-    display: block;
 }
 
 .text-input {
@@ -263,8 +266,11 @@ footer {
     color: #fafafa;
     height: 33px;
     margin: 5px 0 20px 0;
+    width: 50%;
     border: 1px solid #fafafa;
     border-radius: 5px;
+    text-align: center;
+    clear: auto 0;
 }
 
 .text-input:hover {
