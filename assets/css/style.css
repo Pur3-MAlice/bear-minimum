@@ -145,8 +145,9 @@ h1, h2 {
   #blog-section a {
     color: #000;
     text-decoration: none;
-    font-style: Montserrat, sans-serif;
-    font: 500 100%/1.5 system-ui;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    text-align: center;
   }
 
   #blog-section img {
@@ -172,17 +173,16 @@ h1, h2 {
 
 #about-teaser p {
     color: #000;
-    text-decoration: none;
-    font-style: Montserrat, sans-serif;
-    font: 500 100%/1.5 system-ui;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
     text-align: center;
 }
 
 #second-cta {
     color: #000;
     text-decoration: none;
-    font-style: Montserrat, sans-serif;
-    font: 500 100%/1.5 system-ui;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -253,16 +253,14 @@ footer {
 }
 
 #mission-hub h4 {
-    font-size: 28px;
-    text-transform: uppercase;
-    font-family: Teko, sans-serif;
-    letter-spacing: 4px;
+    font-size: 26px;
+    font-family: Montserrat, sans-serif;
     color: #6A761Aff;
 }
 
 #mission-hub p {
-    font-family: Teko, sans-serif;
-    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -379,6 +377,7 @@ hr {
 
 .join-button {
     margin-top: 20px;
+    margin-bottom: 10px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
@@ -391,6 +390,12 @@ hr {
 .join-button:hover {
     background-color: #fafafa;
     color: #6A761Aff;
+}
+
+label {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    padding: 5px;
 }
 
 /* media q*/
