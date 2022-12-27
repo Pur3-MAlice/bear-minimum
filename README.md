@@ -126,7 +126,8 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * I would also like to mention that, before starting this project, I did peruse other CI student’s projects, for both code inspiration and direction. Whilst no code was directly taken from these other projects, I can say that my research did influence how I built the project and created my README.md initially - strong deviations were taken after my research and the inital build. (Notable mentions: David Bowers github: dnlbowers, who I asked permission to do this.)
 * I did rely on stack overflow, W3schools, CSS-TRICKS and MDN web docs for general references and problem solving throughout the project.
 ### **Content**
-* Content for the blogs is taken from the book "The Wild Handbook: Seasonal Activities to Help You Reconnect With Nature" By Emaily Thomas and James Weston Lewis. 
+* Content for the blogs is taken from the book "The Wild Handbook: Seasonal Activities to Help You Reconnect With Nature" By Emily Thomas and James Weston Lewis. 
+* Blog post How Nature Can Help Heal Our Planet was taken from The Nature Conservancy: https://www.nature.org/en-us/what-we-do/our-priorities/tackle-climate-change/climate-change-stories/how-nature-can-help-heal-our-planet/
 * The Spotify Podcast is ---- 
 ### **Media**
 * All images were taken from Pexels.com.
