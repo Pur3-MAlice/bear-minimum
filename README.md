@@ -128,6 +128,7 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ### **Content**
 * Content for the blogs is taken from the book "The Wild Handbook: Seasonal Activities to Help You Reconnect With Nature" By Emily Thomas and James Weston Lewis. 
 * Blog post How Nature Can Help Heal Our Planet was taken from The Nature Conservancy: https://www.nature.org/en-us/what-we-do/our-priorities/tackle-climate-change/climate-change-stories/how-nature-can-help-heal-our-planet/
+* Blog post 5 Ways to Start Being More Sustainable was taken from Intelligent Change https://www.intelligentchange.com/blogs/read/5-ways-to-start-being-more-sustainable
 * The Spotify Podcast is ---- 
 ### **Media**
 * All images were taken from Pexels.com.
