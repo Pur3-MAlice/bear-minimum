@@ -30,7 +30,6 @@ $gradient-radial: radial-gradient(#6A761Aff, #575E32ff, #FDF2C9ff, #624B15ff, #4
     margin: 0 auto;
     padding: 0;
     border: none;
-    overflow-x: hidden;
 }
 
 /* Logo and Nav Bar */
@@ -51,6 +50,7 @@ h1, h2 {
     width: 100%; 
     overflow: auto;
     clear: both;
+    overflow-x: hidden;
 }
 
 .nav-bar ul {
@@ -206,6 +206,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    overflow-x: hidden;
 } 
 
 .philosophy {
@@ -218,6 +219,7 @@ footer {
     float: left;
     width: 25%;
     padding-top: 7.5px;
+    list-style-type: none;
 }
 
 .social-networks i {
@@ -344,7 +346,6 @@ hr {
 }
 
 .content-area {
-    text-align: center;
     display: grid;
     align-items: center;
     max-width: 800px;
@@ -356,23 +357,28 @@ hr {
     font-family: Teko, sans-serif;
     letter-spacing: 4px;
     color: #6A761Aff;
+    text-align: center;
 }
 
 .content-area h4 {
     font-size: 26px;
     font-family: Montserrat, sans-serif;
     color: #6A761Aff;
+    text-align: center;
 }
 
 .content-area h5 {
     font-size: 22px;
     font-family: Montserrat, sans-serif;
     color: #6A761Aff;
+    text-align: center;
 }
 
 .content-area p {
     font-family: Montserrat, sans-serif;
     font-size: 16px;
+    text-align: justify;
+    padding: 15px;
 }
 
 .content-area a {
@@ -380,6 +386,17 @@ hr {
     font-size: 16px;
     color: #000;
 }
+
+.content-area ul li{
+    background: #ffe5e5;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+    list-style-type: circle;
+    display: list-item;
+  }
 
 /* signup form */
 #signup-image {   
@@ -402,6 +419,8 @@ hr {
     background-color: rgba(73, 57, 13, 0.6);
     text-align: center;
     width: 70%;
+    overflow-x: hidden;
+    border-radius: 5%;
 }
 
 .text-input {
@@ -422,7 +441,7 @@ hr {
 
 .join-button {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
