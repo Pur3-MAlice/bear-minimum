@@ -358,6 +358,7 @@ hr {
     letter-spacing: 4px;
     color: #6A761Aff;
     text-align: center;
+    padding: 15px;
 }
 
 .content-area h4 {
@@ -365,6 +366,7 @@ hr {
     font-family: Montserrat, sans-serif;
     color: #6A761Aff;
     text-align: center;
+    padding: 15px;
 }
 
 .content-area h5 {
@@ -372,6 +374,7 @@ hr {
     font-family: Montserrat, sans-serif;
     color: #6A761Aff;
     text-align: center;
+    padding: 15px;
 }
 
 .content-area p {
@@ -388,15 +391,19 @@ hr {
 }
 
 .content-area ul li{
-    background: #ffe5e5;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
-    color: darkred;
     padding: 5px;
     margin-left: 35px;
-    list-style-type: circle;
-    display: list-item;
-  }
+    list-style-type: disc;
+}
+
+.content-area ol li{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 35px;
+}
 
 /* signup form */
 #signup-image {   
