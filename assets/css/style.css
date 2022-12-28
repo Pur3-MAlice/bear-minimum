@@ -345,12 +345,6 @@ hr {
     color: #FDF2C9ff;
 }
 
-.content-area {
-    display: grid;
-    align-items: center;
-    max-width: 800px;
-}
-
 .content-area h3 {
     font-size: 280%;
     text-transform: uppercase;
@@ -359,6 +353,9 @@ hr {
     color: #6A761Aff;
     text-align: center;
     padding: 15px;
+    display: grid;
+    align-items: center;
+    max-width: 800px;
 }
 
 .content-area h4 {
@@ -367,14 +364,19 @@ hr {
     color: #6A761Aff;
     text-align: center;
     padding: 15px;
+    display: grid;
+    align-items: center;
+    max-width: 800px;
 }
 
 .content-area h5 {
     font-size: 22px;
     font-family: Montserrat, sans-serif;
     color: #6A761Aff;
-    text-align: center;
     padding: 15px;
+    display: grid;
+    align-items: center;
+    max-width: 800px;
 }
 
 .content-area p {
@@ -382,13 +384,25 @@ hr {
     font-size: 16px;
     text-align: justify;
     padding: 15px;
+    align-items: center;
+    max-width: 800px;
 }
 
-.content-area a {
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    color: #000;
+.content-area img {
+    width: 100%;
 }
+
+.content-area ol {
+    display: grid;
+    align-items: center;
+    max-width: 800px;
+}    
+
+.content-area ul {
+    display: grid;
+    align-items: center;
+    max-width: 800px;
+}   
 
 .content-area ul li{
     font-family: Montserrat, sans-serif;
@@ -403,6 +417,19 @@ hr {
     font-size: 16px;
     padding: 5px;
     margin-left: 35px;
+}
+
+.content-area a {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.content-area a:hover {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: #6A761Aff;
+    text-decoration: underline;
 }
 
 /* signup form */
