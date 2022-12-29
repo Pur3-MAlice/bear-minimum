@@ -108,32 +108,32 @@ h1, h2 {
 
 #blog-section {
     display: grid;
-    padding: 2rem;
+    padding: 1rem;
     grid-template-columns: 300px 1fr;
     gap: 1rem;
     align-items: center;
     max-width: 800px;
     margin: 0 auto;
-  }
+}
 
-  #blog-section a {
+#blog-section a {
     color: #000;
     text-decoration: none;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     text-align: center;
-  }
+}
 
-  #blog-section img {
+#blog-section img {
     max-width: 100%;
     height: auto;
-  }
+}
 
-  #blog-section strong {
+#blog-section strong {
     color: #6A761Aff;
     text-align: center;
     text-transform: uppercase;
-  }
+}
 
 /* about teaser second cta*/
 #about-teaser {
@@ -154,7 +154,7 @@ h1, h2 {
 #about-teaser p {
     color: #000;
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -183,7 +183,7 @@ h1, h2 {
     font-size: 320%;
     font-family: Teko, sans-serif;
     text-transform: uppercase;
-    padding: 25px;
+    padding-top: 25px;
 }
 
 #podcasts div {
@@ -503,15 +503,133 @@ label {
     margin-left: 50px;
 }
 
-/* media q*/
+/* media q for tablets*/
 @media (max-width: 650px) {
-    #blog-section body {
-      display: block;
-      font-size: 80%;
+    #logo {
+        font-size: 220%;
     }
-    #blog-section a {
-      position: relative;
-      margin: -3rem 0 2rem 1rem;
-      padding: 1rem;
+    
+    .nav-bar a {
+        font-size: 20px;
+    }
+
+    #blog-section {
+        grid-template-columns: 100%;
+        width: 90%;
+    }
+
+    #blog-header h3 {
+        font-size: 26px;
+    }
+
+    #about-teaser  {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    #about-teaser h3 {
+        font-size: 26px;
+    }
+
+    #about-teaser p {
+        font-size: 16px;
+    }
+
+    #left-about {
+        padding-top: 5px;
+        width: 100%;
+    }
+    
+    #right-about {
+        padding-top: 5px;
+        width: 100%;
+    }
+
+    #center-about {
+        width: 100%;
+    }
+    
+    .left-about-heading {
+        width: 80%;
+        float: none;
+    }
+    
+    .right-about-heading {
+        width: 80%;
+        float: none;
+    }
+    
+    #mission-image {
+        width: 0px;
+        height: 0px;
+    }
+
+    .input-form {
+        width: 90%;
+        margin-top: 100px;
+    }   
+}
+
+@media (max-width: 450px) {
+    #logo {
+        font-size: 180%;
+    }
+    
+    .nav-bar a {
+        font-size: 18px;
+    }
+
+    #about-teaser  {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    #about-teaser h3 {
+        font-size: 20px;
+    }
+
+    #about-teaser p {
+        font-size: 16px;
+    }
+
+    #left-about {
+        padding-top: 5px;
+        width: 100%;
+    }
+    
+    #right-about {
+        padding-top: 5px;
+        width: 100%;
+    }
+
+    #center-about {
+        width: 100%;
+    }
+    
+    .left-about-heading {
+        width: 80%;
+        float: none;
+    }
+    
+    .right-about-heading {
+        width: 80%;
+        float: none;
+    }
+    
+    #mission-image {
+        width: 0px;
+        height: 0px;
+    }
+
+    .input-form {
+        width: 90%;
+        margin-top: 100px;
+    }
+}  
+
+/*call-to-action bar media q*/
+@media (max-width: 560px) {
+    #call-to-action, h2, a {
+        font-size: 26px;
     }
 }
