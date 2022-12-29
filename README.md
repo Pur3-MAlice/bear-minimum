@@ -71,8 +71,26 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
     * A way to stay informed with the newsletter sign up.
 
 ### **Wireframes**
+* Below are some screengrabs of the desktop and mobile wireframes made for this project.
+* Some notable chnages and differences - the resouce page was dropped in favour of a sign up page. The newsletter and driving users back to the site fit in more with the aims than a new page for additional resources. Especially when I found a way to fit some extra resources into the blog page.
+* Another change has been maded to the home page - instead of several columns for the content Iinstead went for a signular column for all three blog posts. I think this is a cleaner look and less distracting to the user's eye. 
 #### *Desktop*
+![desktop home page](docs/wireframes/desktop-home-page.png)
+
+![desktop about us page](docs/wireframes/desktop-about-us-page.png)
+
+![desktop blog page](docs/wireframes/desktop-blog-page.png)
+
+![desktop resources page](docs/wireframes/desktop-resources-page.png)
+
 #### *Mobile*
+![mobile home page](docs/wireframes/mobile-home-page.png)
+
+![mobile about us page](docs/wireframes/mobile-about-us-page.png)
+
+![mobile blog page](docs/wireframes/mobile-blog-page.png)
+
+![mobile resources page](docs/wireframes/mobile-resources-page.png)
 
 ### **Design**
 #### *Color Scheme*
