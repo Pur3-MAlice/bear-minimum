@@ -120,7 +120,7 @@ h1, h2 {
     color: #000;
     text-decoration: none;
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -517,22 +517,30 @@ label {
         font-size: 26px;
     }
 
+    #blog-header h3 {
+        font-size: 180%;
+    }
+
     #blog-section {
         grid-template-columns: 100%;
         width: 90%;
     }
 
-    #about-teaser  {
-        width: 90%;
+    #about-teaser {
+        width: 95%;
         padding-bottom: 10px;
     }
 
     #about-teaser h3 {
-        font-size: 26px;
+        font-size: 34px;
     }
 
     #about-teaser p {
-        font-size: 16px;
+        font-size: 22px;
+    }
+
+    #about-teaser a {
+        font-size: 22px;
     }
 
     .content-area h3 {
@@ -584,6 +592,9 @@ label {
     #podcasts div {
         grid-template-columns: 100%;
     }
+    #blog-page-call-to-action {
+        padding-bottom: 20px;;
+    }
 }
 
 /* medium screens media q */
@@ -601,12 +612,15 @@ label {
         font-size: 20px;
     }
 
-    #about-teaser  {
-        width: 90%;
-        padding-bottom: 10px;
+    #blog-section a {
+        font-size: 16px;
+    }
+       
+    #about-teaser p {
+        font-size: 16px;
     }
 
-    #about-teaser p {
+    #about-teaser a {
         font-size: 16px;
     }
 
@@ -669,15 +683,27 @@ label {
         font-size: 22px;
     }
 
+    .philosophy {
+        font-size: 14px;
+    }
+
     .content-area h3 {
         font-size: 22px;
     }
     
     .content-area h4 {
-        font-size: 20px;
+        font-size: 18px;
+        letter-spacing: -1px;
     }
 
-    .philosophy {
-        font-size: 14px;
+    .content-area h5 {
+        font-size: 16px;
+        letter-spacing: -1px;
+        padding: 10px;
     }
+
+    #podcasts h3 {
+        font-size: 22px;
+    }
+    
 }
