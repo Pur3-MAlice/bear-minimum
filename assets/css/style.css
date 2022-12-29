@@ -503,7 +503,7 @@ label {
     margin-left: 50px;
 }
 
-/* media q for tablets*/
+/* larger-medium screens media q */
 @media (max-width: 650px) {
     #logo {
         font-size: 220%;
@@ -513,13 +513,13 @@ label {
         font-size: 20px;
     }
 
+    #call-to-action, h2, a {
+        font-size: 26px;
+    }
+
     #blog-section {
         grid-template-columns: 100%;
         width: 90%;
-    }
-
-    #blog-header h3 {
-        font-size: 26px;
     }
 
     #about-teaser  {
@@ -533,6 +533,15 @@ label {
 
     #about-teaser p {
         font-size: 16px;
+    }
+
+    .content-area h3 {
+        letter-spacing: 0px;
+        line-height: 90%;
+    }
+
+    .content-area h4 {
+        font-size: 22px;
     }
 
     #left-about {
@@ -570,6 +579,14 @@ label {
     }   
 }
 
+/* podcast grid special media q */
+@media (max-width: 550px) {
+    #podcasts div {
+        grid-template-columns: 100%;
+    }
+}
+
+/* medium screens media q */
 @media (max-width: 450px) {
     #logo {
         font-size: 180%;
@@ -577,6 +594,11 @@ label {
     
     .nav-bar a {
         font-size: 18px;
+        padding: 6px;
+    }
+
+    #call-to-action, h2, a {
+        font-size: 20px;
     }
 
     #about-teaser  {
@@ -584,12 +606,16 @@ label {
         padding-bottom: 10px;
     }
 
-    #about-teaser h3 {
-        font-size: 20px;
-    }
-
     #about-teaser p {
         font-size: 16px;
+    }
+
+    .philosophy {
+        font-size: 16px;
+    }
+
+    #copyright p {
+        font-size: 0.5em
     }
 
     #left-about {
@@ -627,9 +653,31 @@ label {
     }
 }  
 
-/*call-to-action bar media q*/
-@media (max-width: 560px) {
+/*smaller screens media q */
+
+@media (max-width: 340px) {
+    .nav-bar a {
+        font-size: 16px;
+        padding: 5px;
+    }
+
     #call-to-action, h2, a {
-        font-size: 26px;
+        font-size: 18px;
+    }
+
+    #blog-header h3 {
+        font-size: 22px;
+    }
+
+    .content-area h3 {
+        font-size: 22px;
+    }
+    
+    .content-area h4 {
+        font-size: 20px;
+    }
+
+    .philosophy {
+        font-size: 14px;
     }
 }
