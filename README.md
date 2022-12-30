@@ -163,6 +163,8 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * From the project's repository, go to the Settings tab.
 * From the left-hand menu, select the Pages tab.
 * Under the Source section, select the Main branch from the drop-down menu and click Save.
+* https://pur3-malice.github.io/bear-minimum/
+*One issue i found after deployment tis that some images were not loading through. Bar one which used the realtive file path starting with '..'. I then changed all the images to this type of file path.
 
 
 ## **During Development Testing**

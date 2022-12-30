@@ -434,7 +434,7 @@ hr {
 #signup-image {   
     height: 703px;
     width: 100%;
-    background: url('..images/forest-canopy.jpg') no-repeat center center;
+    background: url('../forest-canopy.jpg') no-repeat center center;
 }
 
 .box-form {
