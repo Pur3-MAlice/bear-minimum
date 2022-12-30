@@ -158,6 +158,12 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * The Spotify Podcasts are all embedded links taken from Spotify, the creators are The Climate Question by BBC World Service, Climate Change for Beginners by An Emergency Podcast, TED Climate by TEDTALKS and Climate Rising by Harvard Business School. These podcasts were all chosen for their reputable creators, known for trustworthiness.
 ### **Media**
 * All images were taken from Pexels.com.
+## **Deployment**
+* I deployed the page on GitHub pages via the following procedure: -
+* From the project's repository, go to the Settings tab.
+* From the left-hand menu, select the Pages tab.
+* Under the Source section, select the Main branch from the drop-down menu and click Save.
+
 
 ## **During Development Testing**
 During the development process, I was manually testing in the following ways:-
@@ -220,11 +226,8 @@ Below is a list of bugs I found during the development process. Alot of the bugs
 * All other pages tested, no issues found.
 ![HTML validator](/docs/screenshot/html-validator.png)
 #### ***CSS*** - https://jigsaw.w3.org/css-validator/
-
-* All pages tested, no issues found via URL or file upload.\
-![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
-
-
+* All pages tested, no issues found. Here is the screenshot of my result.
+![CSS badge](/docs/screenshot/css-validator.png)
 ### **Lighthouse Scores**
 ### **Test conditions**
 * I did all lighthouse tests in incognito mode to avoid interference from browser extensions. 
@@ -238,4 +241,3 @@ I have only included one screenshot for desktop as all pages were the same score
 
 ### **Accessability**
 In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned. 
-## **Deployment**
