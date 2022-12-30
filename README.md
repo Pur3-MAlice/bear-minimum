@@ -170,31 +170,30 @@ During the development process, I was manually testing in the following ways:-
   4. Edge
 * I then used the devtools to simulate different screen sizes/devices from 320px up to 2200px in width. 
 * In addition to this, I used the dev tools to simulate different products such as the iPhone XR, iPhone 12 Pro, Samsung Galaxy S8+, iPad Air, iPad Mini, Surface Pro 7 and Nest Hub.
+* I also got freinds and my partner to test the site on their own devices - Samsung, Dell Laptops, Self-built desktops and Apple products. 
 
 ### ***Bugs and Fixes:***
-Below is a list of bugs I found during the development process. Alot of the bugs and fixes where minor enough that temporary editing in the devtools allowed me to find a quick and simple soultions to most of the bugs almost instantly.
-
+Below is a list of bugs I found during the development process. Alot of the bugs and fixes where minor enough that temporary editing in the devtools allowed me to find a quick and simple soultions to most of the bugs almost instantly. But here are a few that stumped me enough to write them down.
 1. **Intended Outcome** - The Sign Up form central on the background image
     * ***Issue Found:*** 
-        * 
+        * I wanted to have the input form to be centralised over an image. However i ran into issues when trying to have the form flaot over the image whilst staying in the missle of the screen. It kept either flaoting below the image and making a gap between the image and the footer - or it was stuck to the top image .
     * ***Solution Used:*** 
-        * 
+        * Thanks to the universal css styling I didn't have to specify the margin 0 auto. However there was an issue overall with the padding. I trialed different amounts of padding the the devtools and landing on 7.5% over all to stop the form ataching itself to the bottom of the nav bar. I also moved the image from being hosted in the html, to being hosted in the css and placed the div for the form inside the 'signup-image' section that would eventually host the background image. I then set the wdith of the form to 70% so it wouldn't take up the whole width of the screen. 
 1. **Intended Outcome** - The inputs and labels for the form to have their own lines.
     * ***Issue Found:*** 
-        * 
+        * The input for the labels weren't settling on their own 'line'. And the Input boxes were not long enough. This made the form look smessy and unuseable.
     * ***Solution Used:*** 
-        *        
+        *  I sent the width of the text iput to 50% meaning they would have to take up 50% of the width of the div that they were in. This pushed them to a new line. I did have to fiddle with the label padding to make sure they all looked like they were on the same line. But that eventually worked after a bit of tweaking.   
 1. **Intended Outcome** - Have central column for text on the blog page
     * ***Issue Found:*** 
-        * 
+        * My inital grid section wasn't working for the homepage blog teasers the way i wanted it too. The grid sections for the text were too small and it overall didn't look right.
     * ***Solution Used:*** 
-        * 
+        * I googled it. And used CSS-TRICKS resouce 'How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side?'. I used and then modified the code from this and it works. I did remove their responsive styling as it didn't fit the style of my site.
 1. **Intended Outcome** - Have fixed copyright statement in footer for all pages
     * ***Issue Found:*** 
         * I initally had the h4 element above the social media footers elements and tried to used the postion: fixed styling to move it down to the bottom right of the page. This did not work and in fact broke up the background of the footer.  
     * ***Solution Used:*** 
-        * I moved the div to below the social media links, changed the h4 element to a div instead and simply foated the text right instead of using a fixed postion so the text would not need any responsiveness editing. 
-
+        * I moved the div to below the social media links, changed the h4 element to a div instead and simply foated the text right instead of using a fixed postion so the text would not need any responsiveness editing.
 1. **Intended Outcome** - Responsive: Have the spotify elements and the home page blog teasers go from 2 columns to single columns/text going underneth when screens got smaller
     * ***Issue Found:*** 
         * When making the screen smaller the text in the blog section on the home page and the spotify embedded links in the blogs page were for lack of a better term squished up. The text and the buttons looked constrained and they were unreadable.
@@ -205,7 +204,6 @@ Below is a list of bugs I found during the development process. Alot of the bugs
         * Another issue when tackling the responsiveness of the site was the mission area on the about page. The image went behind some of the text and it didn't look proprtionaly to the text when on smaller screens.
     * ***Solution Used:*** 
         * Cahning the #mission-image width and height to 0px, removed the image entirely from the page when we got past 770px. I also changed the width of the left and right about to 100% and removed the float from the left and right about heading. 
-
 1. **Intended Outcome** - Responsive: Maintain centralness of form on signup page
     * ***Issue Found:*** 
         * The smaller the screen got on the sign up page the more squished and tight the input form became. This looked really bad and would have made the usability and accessibility of the input form terrible. 
@@ -214,13 +212,13 @@ Below is a list of bugs I found during the development process. Alot of the bugs
 
 ## **Post Development Testing**
 ### **Validators**
-
 #### ***HTML*** - https://validator.w3.org/nu/  
 * ***Issue Found:***
-    * 
+    * blogs.html: The embedded links for spotify have their own inline CSS styling which the validator is picking up.
 * ***Solution Used:***
-    *      
-
+    * blogs.html: I removed as much inline styling from the links as possible, but the width=100% value which is showing as an error cannot be removed without compromising the podcast structure and the pages itself. so has been kept in. But this is an issue with Spotify's embedded link system rather than my written code.   
+* All other pages tested, no issues found.
+![HTML validator](/docs/screenshot/html-validator.png)
 #### ***CSS*** - https://jigsaw.w3.org/css-validator/
 
 * All pages tested, no issues found via URL or file upload.\
