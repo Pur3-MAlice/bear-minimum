@@ -168,18 +168,49 @@ During the development process, I was manually testing in the following ways:-
   1. Chrome
   2. Firefox  
   4. Edge
-
 * I then used the devtools to simulate different screen sizes/devices from 320px up to 2200px in width. 
 * In addition to this, I used the dev tools to simulate different products such as the iPhone XR, iPhone 12 Pro, Samsung Galaxy S8+, iPad Air, iPad Mini, Surface Pro 7 and Nest Hub.
 
 ### ***Bugs and Fixes:***
-Below is a list of bugs I found during the development process.
+Below is a list of bugs I found during the development process. Alot of the bugs and fixes where minor enough that temporary editing in the devtools allowed me to find a quick and simple soultions to most of the bugs almost instantly.
 
-1. **Intended Outcome** - A header with four evenly spaced out items across the header element.
+1. **Intended Outcome** - The Sign Up form central on the background image
     * ***Issue Found:*** 
-        * Using float left and float right, I found the title stuck to the logo on the left despite using the clear command in the CSS .title selector.
+        * 
     * ***Solution Used:*** 
-        * Used CSS flex instead of float.
+        * 
+1. **Intended Outcome** - The inputs and labels for the form to have their own lines.
+    * ***Issue Found:*** 
+        * 
+    * ***Solution Used:*** 
+        *        
+1. **Intended Outcome** - Have central column for text on the blog page
+    * ***Issue Found:*** 
+        * 
+    * ***Solution Used:*** 
+        * 
+1. **Intended Outcome** - Have fixed copyright statement in footer for all pages
+    * ***Issue Found:*** 
+        * I initally had the h4 element above the social media footers elements and tried to used the postion: fixed styling to move it down to the bottom right of the page. This did not work and in fact broke up the background of the footer.  
+    * ***Solution Used:*** 
+        * I moved the div to below the social media links, changed the h4 element to a div instead and simply foated the text right instead of using a fixed postion so the text would not need any responsiveness editing. 
+
+1. **Intended Outcome** - Responsive: Have the spotify elements and the home page blog teasers go from 2 columns to single columns/text going underneth when screens got smaller
+    * ***Issue Found:*** 
+        * When making the screen smaller the text in the blog section on the home page and the spotify embedded links in the blogs page were for lack of a better term squished up. The text and the buttons looked constrained and they were unreadable.
+    * ***Solution Used:*** 
+        * As both of thees erea employed a grid styling I knew I could remove this when tackling my site's responsiveness  However, I still wanted to keep the general strcuture of the grids for continuity. So i changed the grid-template-coloumns from 300px 1fr, to 100%. Meaning that each element would take up 100% of the width of the grid system. This still left the inital padding and margins around the grid and internally.
+1. **Intended Outcome** - Responsive: Remove mission image entirely for medium to smaller screens and centralise the text.
+    * ***Issue Found:*** 
+        * Another issue when tackling the responsiveness of the site was the mission area on the about page. The image went behind some of the text and it didn't look proprtionaly to the text when on smaller screens.
+    * ***Solution Used:*** 
+        * Cahning the #mission-image width and height to 0px, removed the image entirely from the page when we got past 770px. I also changed the width of the left and right about to 100% and removed the float from the left and right about heading. 
+
+1. **Intended Outcome** - Responsive: Maintain centralness of form on signup page
+    * ***Issue Found:*** 
+        * The smaller the screen got on the sign up page the more squished and tight the input form became. This looked really bad and would have made the usability and accessibility of the input form terrible. 
+    * ***Solution Used:*** 
+        *  When the scrren got to  770px the width of the input from chnaged from 70% to 90%, and I also enlarged the margin top to 100px. Thsi made the input form take up more of the screen and also made it more central on smaller screens. Plus it just looks nicer.            
 
 ## **Post Development Testing**
 ### **Validators**
