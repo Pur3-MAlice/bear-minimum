@@ -49,7 +49,6 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * Users craving to be reunited with nature and get out of the modern-world rush. 
 * Users with a general interest in environmentalism and want to learn more.
 * Users who have begun their sustainability journey but would like to find more information on the how to build the lifestyle with small steps.
-
 ### **User Stories:**
 * As a user, I want to see the subject matter of the page.
 * As a user, I want to be able to navigate the site to find what I require quickly and easily.
@@ -57,19 +56,16 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * As a user, I want to be able to navigate my way to resources easily.
 * As a user, I want to feel calm and happy whilst navigating the site.
 * As a user, I want to understand the Mission of the site quickly.
-
 ### **Aims:**
 * To educate the user on the Environmentalism and Sustainability.
 * To offer the user a chance to make small steps towards and/or build an eco-friendlier lifestyle.
 * Provide the user with the information required on the Mission of the site.
 * Provide the use a way to subscribe to a newsletter.
-
 ### **How to Achieve:**
 * The site will provide multiple free resources such as 
     * Info-tainment blog posts
     * An embedded Spotify podcasts.
     * A way to stay informed with the newsletter sign up.
-
 ### **Wireframes**
 * Below are some screengrabs of the desktop and mobile wireframes made for this project.
 * Some notable chnages and differences - the resouce page was dropped in favour of a sign up page. The newsletter and driving users back to the site fit in more with the aims than a new page for additional resources. Especially when I found a way to fit some extra resources into the blog page.
@@ -97,18 +93,15 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * Having already chosen the Hero/Main image for the home page I wanted to pick a color palette that would tie in cohesively with the image (which would be used universally around the site). I knew that coolors.co had an image color extraction which could pick out the exact colors that would work to this effect. The effect I wanted to pull off was natural, elegant and calming. The Visual Identity of this website should give the user a calm, relaxed feeling. No overly bright or neon colors. 
 ![Color Palette Picker](docs/screenshot/color-pallette-picker.png)
 * I also knew that coolors.co gave you all the HEX, rbga and HSL codes ready to copy and paste for the colors picked. By consolidating each branding asset (images, colors, fonts) into a cohesive aesthetic, this develops brand recognition, which in turn is good UX.
-
 ![Color Export](docs/screenshot/css-pallette-export.png)
 #### *Typography*
 * Whilst doing research into the best Google Font combinations, I came across this article: [21 Google Fonts Combinations For Websites & Brands](https://www.garett.co/21-google-fonts-combinations-for-websites-brands). The Teko + Montserrat combination seemed to be the best suited to the aesthetic of the page. Plus, their readability is very good, so this is a plus for the accessibility of the website.
-
 ## **Universal Features**
 ### **Header Element**
 #### *Logo*
 * The website logo is strong and minimalistic, to fit in with the core values of the website. 
 * The logo will appear on every webpage for continuity.
 * The logo is strongly presented and at the top center of the page so the user's eye naturally goes down the center of the page, where most of the information will be held.
-
 #### *Nav Bar*
 * I wanted to add a traditional Navigation bar at the top of my website so the user could easily get from one page to another. 
 * The navigation bar appears on all the pages, including the Sign-Up form feedback page.
@@ -116,20 +109,17 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * The below image shows the user's current page highlighted using white underline, this is a subtle addition trying to make the users experiences as calm and enjoyable as possible.
 * The hover feature was employed to turn the lettering from white to black to make sure the user is aware that this is an active link which they can click.
 ![Nav Bar Active Feature](docs/screenshot/nav-bar-image.png)
-
 ### **Hero Image**
 * For the Hero Image for this project I decided on a nature theme. I chose the Hero Image before deciding on fonts and color schemes, as I wanted to make them both cohesive with the Hero Image. The Hero Image will be used throughout the webpages to add a layer of continuity. The first image I chose from Pexels was too large and was distorted when pushed through. So, I read up on best practices for webpage/desktop and found a helpful blog post from HubSpot: "Ultimate Guide to Hero Images [Best Practices + Examples]". I found an appropriate image that then I used to create a color scheme which is described above. 
 * I also employed the zoom effect to the main image. Again, this was inspired by the Love Running Project, as I liked the effect it had for the User's Experience.
 ![Hero Image with CTA](docs/screenshot/main-image-call-to-action.png)
 * This image is of a forest dappled with sunlight.
 * The idea for the Hero Image with the floating CTA was directly inspired by the Love Running Project. However, the code was adapted quite a bit for this website, also the user's experience of this is a Call to Action, rather than information. It also serves to give the user the explicit subject matter of the site - the site aim is directly stated.
-
 ### **Footer**
 * For good UX I kept with a traditional website footer of social media links. This is clean and simple and is universal throughout the website. Again, the feeling of this site should be calm and serene, this pared down footer is a key part of the continuity of the website.
 * I also added the site's philosophy as a quote to the footer - to maintain the user's understanding of the site's aims.
 * There is also a copyright - because I liked the addition.
 ![Footer image](docs/screenshot/footer-image.png)
-
 ## **Page Content Features**
 ### **About Content**
 * The about content needed to be simple. The messaging very easy to absorb and the mission of the site clear. To do this, I adapted a Love Running bit of code to fit my purpose. Although this was not as creative as I would have liked the end result does speak for itself and the overall feel of the about page, I think really suits the end goal of the site. It is clear, calm and direct. 
@@ -143,14 +133,12 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * The blogs are in a typical newspaper fashion, one column, justified paragraphs with centred headers and left-aligned sub-heading. This is a style of blog known to many users and to break away from user experience in this case would have become a distraction to the user rather than help them focus on the content and stay calm and serene - which is one of the site's aims.
 * I chose the grid display for the podcast section because it is naturally responsive and looks sleek and elegant. It also distracts the user's eye less than large blocks.
 ![Podcast grid section image](docs/screenshot/podcast-grid-section.png)
-
 ### **Sign up Page Content**
 * For the Sign-Up page I wanted to keep the devices clear of distraction. To convey a calm, modern and sleek look the only thing available on this page is the sign up.
 * The entire mission for this website is to create return users to consume more content. The Newsletter is the main way the site gets return users.
 * Because of the lack of content and the simplified nature of the form - it needed to take center stage. So, the form is in the middle of the page. 
 * The only options the users have are to click off the page to social media, click within the site or sign up. This simplified user experience will lead to less click off. Trying not to overload the user with too many choices creates the calm user experience this website is trying to produce.
 ![Sign Up Form ](docs/screenshot/form-screenshot.png)
-
 ## **Future Improvements**
 * Something I did want to do but would have been too time consuming to do was to make the blog section into several carousels with different headings/genres.
 * Sign Up page could be GET, and the user could be sent to an internal page rather than the regular POST system.
@@ -158,20 +146,67 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * Another improvement would have other pages linking out both live community events and even a map of zero-waste shops in the area where the user is.
 * One more would be live updates to new Spotify podcasts by an affiliated podcast AND/OR other trustworthy creators.
 * Links to further free resources via other environmental sites such as The Eden Project, National Parks website etc. 
-
-
-## **Deployment**
 ## **Credits**
 ### **References**
 * Whilst I did try to deviate as much as possible, this project was influenced by CI’s Love Running Project. Notable similarities are the use of Hero-Images and floated text on top of the Hero-Image, the Missions section in the About Pag is also influenced by the project. 
 * I would also like to mention that, before starting this project, I did peruse other CI student’s projects, for both code inspiration and direction. Whilst no code was directly taken from these other projects, I can say that my research did influence how I built the project and created my README.md initially - strong deviations were taken after my research and the initial build. (Notable mentions: David Bowers GitHub: dnlbowers, who I asked permission to do this.)
 * I did rely on stack overflow, W3schools, CSS-TRICKS and MDN web docs for general references and problem solving throughout the project.
-
 ### **Content**
 * Content for the Wildflower blog is taken from the book "The Wild Handbook: Seasonal Activities to Help You Reconnect with Nature" By Emily Thomas and James Weston Lewis. 
 * Blog post How Nature Can Help Heal Our Planet was taken from The Nature Conservancy: https://www.nature.org/en-us/what-we-do/our-priorities/tackle-climate-change/climate-change-stories/how-nature-can-help-heal-our-planet/
 * Blog post 5 Ways to Start Being More Sustainable was taken from Intelligent Change https://www.intelligentchange.com/blogs/read/5-ways-to-start-being-more-sustainable
 * The Spotify Podcasts are all embedded links taken from Spotify, the creators are The Climate Question by BBC World Service, Climate Change for Beginners by An Emergency Podcast, TED Climate by TEDTALKS and Climate Rising by Harvard Business School. These podcasts were all chosen for their reputable creators, known for trustworthiness.
-
 ### **Media**
 * All images were taken from Pexels.com.
+
+## **During Development Testing**
+During the development process, I was manually testing in the following ways:-
+1. Manually testing each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
+1. Asked a Data Scientist friend to review the pages and it's responsiveness and they had no comments on improvments that could be made with just HTML and CSS in the timeframe.
+### ***Manual Testing:***
+* During testing, I used three browsers to ensure cross-compatibility. The browsers used were:
+  1. Chrome
+  2. Firefox  
+  4. Edge
+
+* I then used the devtools to simulate different screen sizes/devices from 320px up to 2200px in width. 
+* In addition to this, I used the dev tools to simulate different products such as the iPhone XR, iPhone 12 Pro, Samsung Galaxy S8+, iPad Air, iPad Mini, Surface Pro 7 and Nest Hub.
+
+### ***Bugs and Fixes:***
+Below is a list of bugs I found during the development process.
+
+1. **Intended Outcome** - A header with four evenly spaced out items across the header element.
+    * ***Issue Found:*** 
+        * Using float left and float right, I found the title stuck to the logo on the left despite using the clear command in the CSS .title selector.
+    * ***Solution Used:*** 
+        * Used CSS flex instead of float.
+
+## **Post Development Testing**
+### **Validators**
+
+#### ***HTML*** - https://validator.w3.org/nu/  
+* ***Issue Found:***
+    * 
+* ***Solution Used:***
+    *      
+
+#### ***CSS*** - https://jigsaw.w3.org/css-validator/
+
+* All pages tested, no issues found via URL or file upload.\
+![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
+
+
+### **Lighthouse Scores**
+### **Test conditions**
+* I did all lighthouse tests in incognito mode to avoid interference from browser extensions. 
+* I ran the tests for both mobile and desktop. 
+#### ***Desktop Version:***
+I have only included one screenshot for desktop as all pages were the same score, only changing by one or two points in performance if I ran it multiple times. 
+
+![Desktop Lighthouse Score](docs/screenshots/lighthouse-desktop.jpg) 
+
+**There were several actions required to get to this score:**
+
+### **Accessability**
+In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned. 
+## **Deployment**
