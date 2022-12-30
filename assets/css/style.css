@@ -503,6 +503,43 @@ label {
     margin-left: 50px;
 }
 
+/* large tablets */
+@media (max-width: 770px) {
+    #left-about {
+        padding-top: 5px;
+        width: 100%;
+    }
+    
+    #right-about {
+        padding-top: 5px;
+        width: 100%;
+    }
+
+    #center-about {
+        width: 100%;
+    }
+    
+    .left-about-heading {
+        width: 80%;
+        float: none;
+    }
+    
+    .right-about-heading {
+        width: 80%;
+        float: none;
+    }
+    
+    #mission-image {
+        width: 0px;
+        height: 0px;
+    }
+
+    .input-form {
+        width: 90%;
+        margin-top: 100px;
+    }   
+}
+
 /* larger-medium screens media q */
 @media (max-width: 650px) {
     #logo {
@@ -550,35 +587,6 @@ label {
 
     .content-area h4 {
         font-size: 22px;
-    }
-
-    #left-about {
-        padding-top: 5px;
-        width: 100%;
-    }
-    
-    #right-about {
-        padding-top: 5px;
-        width: 100%;
-    }
-
-    #center-about {
-        width: 100%;
-    }
-    
-    .left-about-heading {
-        width: 80%;
-        float: none;
-    }
-    
-    .right-about-heading {
-        width: 80%;
-        float: none;
-    }
-    
-    #mission-image {
-        width: 0px;
-        height: 0px;
     }
 
     .input-form {
@@ -704,6 +712,26 @@ label {
 
     #podcasts h3 {
         font-size: 22px;
+    }
+
+    #main-image-out {
+        padding-bottom: 10px;
+    }
+
+    #blog-page-call-to-action {
+        height: 75px;
+    }
+
+    #about-teaser h3 {
+        font-size: 28px;
+    }
+
+    #mission-hub h3 {
+        font-size: 26px;
+    }
+
+    #mission-hub h4 {
+        font-size: 18px;
     }
     
 }
