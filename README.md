@@ -1,6 +1,7 @@
 # **Bear Minimum**
 ## **Site Overview**
 Bear Minimum is an info-tainment (information/entertainment) website educating users on sustainability. The main aim of the website is provide useful advice and information about ways to slowly create a sustainable lifestyle in modern society as well as encourage users to 'get back to nature'. There's very little out there about general encouragement to lead a slightly more sustainible life, a lot of the media around being environmentally friendly is 100% effort or nothing. This website is trying to bridge this gap and create a more positive outlook on both sustainibility and Climate Change. (*Some of the images used in this README.md are slightly out of date and the area's have been since modified - however these changes are minor enough not to warrant new screenshots)
+![Responsive Screenshot](/docs/screenshot/am-i-responsive.png)
 ## Table of Contents:
 1. [**Site Overview**](#site-overview)
 1. [**Planning**](#planning)
@@ -163,10 +164,7 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 * From the project's repository, go to the Settings tab.
 * From the left-hand menu, select the Pages tab.
 * Under the Source section, select the Main branch from the drop-down menu and click Save.
-* https://pur3-malice.github.io/bear-minimum/
-*One issue i found after deployment tis that some images were not loading through. Bar one which used the realtive file path starting with '..'. I then changed all the images to this type of file path.
-
-
+* [Bear Minimum](https://pur3-malice.github.io/bear-minimum/index.html)
 ## **During Development Testing**
 During the development process, I was manually testing in the following ways:-
 1. Manually testing each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
@@ -179,9 +177,13 @@ During the development process, I was manually testing in the following ways:-
 * I then used the devtools to simulate different screen sizes/devices from 320px up to 2200px in width. 
 * In addition to this, I used the dev tools to simulate different products such as the iPhone XR, iPhone 12 Pro, Samsung Galaxy S8+, iPad Air, iPad Mini, Surface Pro 7 and Nest Hub.
 * I also got freinds and my partner to test the site on their own devices - Samsung, Dell Laptops, Self-built desktops and Apple products. 
-
 ### ***Bugs and Fixes:***
 Below is a list of bugs I found during the development process. Alot of the bugs and fixes where minor enough that temporary editing in the devtools allowed me to find a quick and simple soultions to most of the bugs almost instantly. But here are a few that stumped me enough to write them down.
+1. **Intended Outcome** - All Images to appear on deployed site.
+    * ***Issue Found:*** 
+        * All bar one image actaully showed up on my deployed site when looking at it.
+    * ***Solution Used:*** 
+        * One issue I found after deployment is that some images were not loading through. All bar one which used the realtive file path starting with './'. I then changed all the images to this type of file path and made soem amendments to the file path names so they went to the right places - as some hadn't been updated and I had since moved things around.
 1. **Intended Outcome** - The Sign Up form central on the background image
     * ***Issue Found:*** 
         * I wanted to have the input form to be centralised over an image. However i ran into issues when trying to have the form flaot over the image whilst staying in the missle of the screen. It kept either flaoting below the image and making a gap between the image and the footer - or it was stuck to the top image .
@@ -232,14 +234,15 @@ Below is a list of bugs I found during the development process. Alot of the bugs
 ![CSS badge](/docs/screenshot/css-validator.png)
 ### **Lighthouse Scores**
 ### **Test conditions**
-* I did all lighthouse tests in incognito mode to avoid interference from browser extensions. 
-* I ran the tests for both mobile and desktop. 
+* I performed the lighthouse tests in incognito mode. I ran the tests for both mobile and desktop. 
 #### ***Desktop Version:***
-I have only included one screenshot for desktop as all pages were the same score, only changing by one or two points in performance if I ran it multiple times. 
+All desktop scores were the same 
 
-![Desktop Lighthouse Score](docs/screenshots/lighthouse-desktop.jpg) 
+![Lighthouse Desktop Score](docs/screenshots/desk-top-lighthouse.jpg) 
 
-**There were several actions required to get to this score:**
+* I wasn't best please with the lower performance score - I dug into this and it turns out that the Cumulative Layout Shift was the cause for this lower score. This I think either comes from the amount of media queires I have used OR the large images utilised on the blog page and the signup page. Either way I am still happy with a 92, especailly if it means that i can keep my bright and airy layout with an extremly responsive layout.
+
+
 
 ### **Accessability**
-In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned. 
+In addition to other tests, I was also inspired to use [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) by dnlbowers to check my pages for accessability. no errors were returned - I was especially concerned with the contrast of my signup page but beforehand I had increased the font-weight and size so this was mitigated.

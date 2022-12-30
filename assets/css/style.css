@@ -176,7 +176,6 @@ h1, h2 {
 }
 
 /* podcasts */
-
 #podcasts h3 {
     color: #6A761Aff;
     text-align: center;
@@ -193,7 +192,6 @@ h1, h2 {
     gap: 1rem;
     align-items: center;
 }
-
 
 /* social media and copyright */
 footer {
@@ -505,6 +503,12 @@ label {
 
 /* large tablets */
 @media (max-width: 770px) {
+    #main-image {
+    height: 95%;
+    width: 100%;
+    background: url(../images/hero-image-forest-smaller.jpg) no-repeat center center;
+    }
+
     #left-about {
         padding-top: 5px;
         width: 100%;
@@ -607,6 +611,7 @@ label {
 
 /* medium screens media q */
 @media (max-width: 450px) {
+
     #logo {
         font-size: 180%;
     }
