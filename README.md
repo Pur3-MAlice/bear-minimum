@@ -1,6 +1,6 @@
 # **Bear Minimum**
 ## **Site Overview**
-Bear Minimum is an info-tainment (information/entertainment) website educating users on sustainability. The main aim of the website is provide useful advice and information about ways to slowly create a sustainable lifestyle in modern society as well as encourage users to 'get back to nature'. There's very little out there about general encouragement to lead a slightly more sustainible life, a lot of the media around being environmentally friendly is 100% effort or nothing. This website is trying to bridge this gap and create a more positive outlook on both sustainibility and Climate Change. (*Some of the images used in this README.md are slightly out of date and the area's have been since modified - however these changes are minor enough not to warrant new screenshots)
+Bear Minimum is an info-tainment (information/entertainment) website educating users on sustainability. The main aim of the website is provide useful advice and information about ways to slowly create a sustainable lifestyle in modern society as well as encourage users to 'get back to nature'. There's very little out there about general encouragement to lead a slightly more sustainable life, a lot of the media around being environmentally friendly is 100% effort or nothing. This website is trying to bridge this gap and create a more positive outlook on both sustainability and Climate Change. (*Some of the images used in this README.md are slightly out of date and the areas have been since modified - however these changes are minor enough not to warrant new screenshots)
 ![Responsive Screenshot](/docs/screenshot/am-i-responsive.png)
 ## Table of Contents:
 1. [**Site Overview**](#site-overview)
@@ -53,7 +53,7 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ### **User Stories:**
 * As a user, I want to see the subject matter of the page.
 * As a user, I want to be able to navigate the site to find what I require quickly and easily.
-* As a user, I want to leave feeling as I know morse about the subject than when I entering.
+* As a user, I want to leave feeling as I know morse about the subject than when I am entering.
 * As a user, I want to be able to navigate my way to resources easily.
 * As a user, I want to feel calm and happy whilst navigating the site.
 * As a user, I want to understand the Mission of the site quickly.
@@ -69,8 +69,8 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
     * A way to stay informed with the newsletter sign up.
 ### **Wireframes**
 * Below are some screengrabs of the desktop and mobile wireframes made for this project.
-* Some notable chnages and differences - the resouce page was dropped in favour of a sign up page. The newsletter and driving users back to the site fit in more with the aims than a new page for additional resources. Especially when I found a way to fit some extra resources into the blog page.
-* Another change has been maded to the home page - instead of several columns for the content Iinstead went for a signular column for all three blog posts. I think this is a cleaner look and less distracting to the user's eye. 
+* Some notable changes and differences - the resource page was dropped in favour of a sign-up page. The newsletter and driving users back to the site fit in more with the aims than a new page for additional resources. Especially when I found a way to fit some extra resources into the blog page.
+* Another change has been made to the home page - instead of several columns for the content Instead went for a singular column for all three blog posts. I think this is a cleaner look and less distracting to the user's eye. 
 #### *Desktop*
 ![desktop home page](docs/wireframes/desktop-home-page.png)
 
@@ -168,7 +168,7 @@ Bear Minimum is an info-tainment (information/entertainment) website educating u
 ## **During Development Testing**
 During the development process, I was manually testing in the following ways:-
 1. Manually testing each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
-1. Asked a Data Scientist friend to review the pages and it's responsiveness and they had no comments on improvments that could be made with just HTML and CSS in the timeframe.
+1. Asked a Data Scientist friend to review the pages and its responsiveness and they had no comments on improvements that could be made with just HTML and CSS in the timeframe.
 ### ***Manual Testing:***
 * During testing, I used three browsers to ensure cross-compatibility. The browsers used were:
   1. Chrome
@@ -176,73 +176,78 @@ During the development process, I was manually testing in the following ways:-
   4. Edge
 * I then used the devtools to simulate different screen sizes/devices from 320px up to 2200px in width. 
 * In addition to this, I used the dev tools to simulate different products such as the iPhone XR, iPhone 12 Pro, Samsung Galaxy S8+, iPad Air, iPad Mini, Surface Pro 7 and Nest Hub.
-* I also got freinds and my partner to test the site on their own devices - Samsung, Dell Laptops, Self-built desktops and Apple products. 
+* I also got friends and my partner to test the site on their own devices - Samsung, Dell Laptops, Self-built desktops and Apple products. 
 ### ***Bugs and Fixes:***
-Below is a list of bugs I found during the development process. Alot of the bugs and fixes where minor enough that temporary editing in the devtools allowed me to find a quick and simple soultions to most of the bugs almost instantly. But here are a few that stumped me enough to write them down.
+Below is a list of bugs I found during the development process. A lot of the bugs and fixes where minor enough that temporary editing in the devtools allowed me to find a quick and simple solutions to most of the bugs almost instantly. But here are a few that stumped me enough to write them down.
 1. **Intended Outcome** - All Images to appear on deployed site.
     * ***Issue Found:*** 
-        * All bar one image actaully showed up on my deployed site when looking at it.
+        * All bar one image actually showed up on my deployed site when looking at it.
     * ***Solution Used:*** 
-        * One issue I found after deployment is that some images were not loading through. All bar one which used the realtive file path starting with './'. I then changed all the images to this type of file path and made soem amendments to the file path names so they went to the right places - as some hadn't been updated and I had since moved things around.
-1. **Intended Outcome** - The Sign Up form central on the background image
+        * One issue I found after deployment is that some images were not loading through. All bar one which used the relative file path starting with './'. I then changed all the images to this type of file path and made some amendments to the file path names so they went to the right places - as some hadn't been updated and I had since moved things around.
+1. **Intended Outcome** - The Sign-Up form central on the background image
     * ***Issue Found:*** 
-        * I wanted to have the input form to be centralised over an image. However i ran into issues when trying to have the form flaot over the image whilst staying in the missle of the screen. It kept either flaoting below the image and making a gap between the image and the footer - or it was stuck to the top image .
+        * I wanted to have the input form to be centralised over an image. However, I ran into issues when trying to have the form float over the image whilst staying in the middle of the screen. It kept either floating below the image and making a gap between the image and the footer - or it was stuck to the top image .
     * ***Solution Used:*** 
-        * Thanks to the universal css styling I didn't have to specify the margin 0 auto. However there was an issue overall with the padding. I trialed different amounts of padding the the devtools and landing on 7.5% over all to stop the form ataching itself to the bottom of the nav bar. I also moved the image from being hosted in the html, to being hosted in the css and placed the div for the form inside the 'signup-image' section that would eventually host the background image. I then set the wdith of the form to 70% so it wouldn't take up the whole width of the screen. 
+        * Thanks to the universal CSS styling I didn't have to specify the margin 0 auto. However, there was an issue overall with the padding. I trailed different amounts of padding the devtools and landing on 7.5% over all to stop the form attaching itself to the bottom of the nav bar. I also moved the image from being hosted in the html, to being hosted in the CSS and placed the div for the form inside the 'signup-image' section that would eventually host the background image. I then set the width of the form to 70% so it wouldn't take up the whole width of the screen. 
 1. **Intended Outcome** - The inputs and labels for the form to have their own lines.
     * ***Issue Found:*** 
-        * The input for the labels weren't settling on their own 'line'. And the Input boxes were not long enough. This made the form look smessy and unuseable.
+        * The input for the labels weren't settling on their own 'line'. And the Input boxes were not long enough. This made the form look messy and unusable.
     * ***Solution Used:*** 
-        *  I sent the width of the text iput to 50% meaning they would have to take up 50% of the width of the div that they were in. This pushed them to a new line. I did have to fiddle with the label padding to make sure they all looked like they were on the same line. But that eventually worked after a bit of tweaking.   
+        *  I sent the width of the text input to 50% meaning they would have to take up 50% of the width of the div that they were in. This pushed them to a new line. I did have to fiddle with the label padding to make sure they all looked like they were on the same line. But that eventually worked after a bit of tweaking.   
 1. **Intended Outcome** - Have central column for text on the blog page
     * ***Issue Found:*** 
-        * My inital grid section wasn't working for the homepage blog teasers the way i wanted it too. The grid sections for the text were too small and it overall didn't look right.
+        * My initial grid section wasn't working for the homepage blog teasers the way I wanted it too. The grid sections for the text were too small and it overall didn't look right.
     * ***Solution Used:*** 
-        * I googled it. And used CSS-TRICKS resouce 'How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side?'. I used and then modified the code from this and it works. I did remove their responsive styling as it didn't fit the style of my site.
+        * I googled it. And used CSS-TRICKS resource 'How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side?'. I used and then modified the code from this, and it works. I did remove their responsive styling as it didn't fit the style of my site.
 1. **Intended Outcome** - Have fixed copyright statement in footer for all pages
     * ***Issue Found:*** 
-        * I initally had the h4 element above the social media footers elements and tried to used the postion: fixed styling to move it down to the bottom right of the page. This did not work and in fact broke up the background of the footer.  
+        * I initially had the h4 element above the social media footers elements and tried to use the position: fixed styling to move it down to the bottom right of the page. This did not work and in fact broke up the background of the footer.  
     * ***Solution Used:*** 
-        * I moved the div to below the social media links, changed the h4 element to a div instead and simply foated the text right instead of using a fixed postion so the text would not need any responsiveness editing.
-1. **Intended Outcome** - Responsive: Have the spotify elements and the home page blog teasers go from 2 columns to single columns/text going underneth when screens got smaller
+        * I moved the div to below the social media links, changed the h4 element to a div instead and simply floated the text right instead of using a fixed position so the text would not need any responsiveness editing.
+1. **Intended Outcome** - Responsive: Have the Spotify elements and the home page blog teasers go from 2 columns to single columns/text going underneath when screens got smaller
     * ***Issue Found:*** 
-        * When making the screen smaller the text in the blog section on the home page and the spotify embedded links in the blogs page were for lack of a better term squished up. The text and the buttons looked constrained and they were unreadable.
+        * When making the screen smaller the text in the blog section on the home page and the Spotify embedded links in the blogs page were for lack of a better term squished up. The text and the buttons looked constrained, and they were unreadable.
     * ***Solution Used:*** 
-        * As both of thees erea employed a grid styling I knew I could remove this when tackling my site's responsiveness  However, I still wanted to keep the general strcuture of the grids for continuity. So i changed the grid-template-coloumns from 300px 1fr, to 100%. Meaning that each element would take up 100% of the width of the grid system. This still left the inital padding and margins around the grid and internally.
+        * As both of these areas employed a grid styling I knew I could remove this when tackling my site's responsiveness  However, I still wanted to keep the general structure of the grids for continuity. So, I changed the grid-template-columns from 300px 1fr, to 100%. Meaning that each element would take up 100% of the width of the grid system. This still left the initial padding and margins around the grid and internally.
 1. **Intended Outcome** - Responsive: Remove mission image entirely for medium to smaller screens and centralise the text.
     * ***Issue Found:*** 
-        * Another issue when tackling the responsiveness of the site was the mission area on the about page. The image went behind some of the text and it didn't look proprtionaly to the text when on smaller screens.
+        * Another issue when tackling the responsiveness of the site was the mission area on the about page. The image went behind some of the text and it didn't look proportionally to the text when on smaller screens.
     * ***Solution Used:*** 
-        * Cahning the #mission-image width and height to 0px, removed the image entirely from the page when we got past 770px. I also changed the width of the left and right about to 100% and removed the float from the left and right about heading. 
-1. **Intended Outcome** - Responsive: Maintain centralness of form on signup page
+        * Changing the #mission-image width and height to 0px, removed the image entirely from the page when we got past 770px. I also changed the width of the left and right about to 100% and removed the float from the left and right about heading. 
+1. **Intended Outcome** - Responsive: Maintain centredness of form on signup page
     * ***Issue Found:*** 
-        * The smaller the screen got on the sign up page the more squished and tight the input form became. This looked really bad and would have made the usability and accessibility of the input form terrible. 
+        * The smaller the screen got on the sign-up page the more squished and tighter the input form became. This looked really bad and would have made the usability and accessibility of the input form terrible. 
     * ***Solution Used:*** 
-        *  When the scrren got to  770px the width of the input from chnaged from 70% to 90%, and I also enlarged the margin top to 100px. Thsi made the input form take up more of the screen and also made it more central on smaller screens. Plus it just looks nicer.            
+        *  When the screen got to  770px the width of the input from changed from 70% to 90%, and I also enlarged the margin top to 100px. This made the input form take up more of the screen and also made it more central on smaller screens. Plus, it just looks nicer.            
 
 ## **Post Development Testing**
 ### **Validators**
 #### ***HTML*** - https://validator.w3.org/nu/  
 * ***Issue Found:***
-    * blogs.html: The embedded links for spotify have their own inline CSS styling which the validator is picking up.
+    * blogs.html: The embedded links for Spotify have their own inline CSS styling which the validator is picking up.
 * ***Solution Used:***
     * blogs.html: I removed as much inline styling from the links as possible, but the width=100% value which is showing as an error cannot be removed without compromising the podcast structure and the pages itself. so has been kept in. But this is an issue with Spotify's embedded link system rather than my written code.   
-* All other pages tested, no issues found.
+* All other pages tested; no issues found.
 ![HTML validator](/docs/screenshot/html-validator.png)
 #### ***CSS*** - https://jigsaw.w3.org/css-validator/
-* All pages tested, no issues found. Here is the screenshot of my result.
+* All pages tested; no issues found. Here is the screenshot of my result.
 ![CSS badge](/docs/screenshot/css-validator.png)
 ### **Lighthouse Scores**
 ### **Test conditions**
 * I performed the lighthouse tests in incognito mode. I ran the tests for both mobile and desktop. 
 #### ***Desktop Version:***
-All desktop scores were the same 
+* All desktop scores were the same 
 
-![Lighthouse Desktop Score](docs/screenshots/desk-top-lighthouse.jpg) 
+![Lighthouse Desktop Score](docs/screenshot/desk-top-lighthouse.png) 
 
-* I wasn't best please with the lower performance score - I dug into this and it turns out that the Cumulative Layout Shift was the cause for this lower score. This I think either comes from the amount of media queires I have used OR the large images utilised on the blog page and the signup page. Either way I am still happy with a 92, especailly if it means that i can keep my bright and airy layout with an extremly responsive layout.
+* I wasn't best please with the lower performance score - I dug into this and it turns out that the Cumulative Layout Shift and Largest Contentful Paint was the cause for this lower score. This I think either comes from the number of media queries I have used OR the large images utilised on the blog page and the signup page. Either way I am still happy with a 92, especially if it means that I can keep my bright and airy layout with an extremely responsive layout.
+#### ***Mobile Version:***
+* My lowest score for my Lighthouse on Mobile devices was 85 - which is very low. But the only adaptions I could have made that I didn't make were serve the images in next-gen formats (which I couldn’t achieve), preconnect to required origins, and encode my images differently - which if I did would remove all images entirely. This is for both the front and the blog page - where I have the biggest images. However, my best performance was a 92, on the about page. See the comparisons below.
+* What I did do to improve the performance was remove and collate lots of CSS coding to make it more efficient. I made a lot of the images smaller or gave them smaller version for mobile devices. I also removed two of the podcasts.
 
+![Lighthouse Mobile Best Score](docs/screenshot/mobile-best-lighthouse.png) 
 
+![Lighthouse Mobile Worst Score](docs/screenshot/mobile-worst-lighthouse.png) 
 
 ### **Accessability**
-In addition to other tests, I was also inspired to use [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) by dnlbowers to check my pages for accessability. no errors were returned - I was especially concerned with the contrast of my signup page but beforehand I had increased the font-weight and size so this was mitigated.
+In addition to other tests, I was also inspired to use [WAVE - Web accessibility evaluation tool](https://wave.webaim.org/) by dnlbowers to check my pages for accessibility. no errors were returned - I was especially concerned with the contrast of my signup page but beforehand I had increased the font-weight and size, so this was mitigated.
