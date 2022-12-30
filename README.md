@@ -219,6 +219,10 @@ Below is a list of bugs I found during the development process. A lot of the bug
         * The smaller the screen got on the sign-up page the more squished and tighter the input form became. This looked really bad and would have made the usability and accessibility of the input form terrible. 
     * ***Solution Used:*** 
         *  When the screen got to  770px the width of the input from changed from 70% to 90%, and I also enlarged the margin top to 100px. This made the input form take up more of the screen and also made it more central on smaller screens. Plus, it just looks nicer.            
+* Also to better comprehend how users would interact with the site I employe an dexcel testing document for all the links on each page. This actually led me to make the form inputs opaque rather than transparent as it'd be better for contrast and accessibility.
+
+![Link Testing One](/docs/screenshot/link-testing-1.png)
+![Link Testing Two](/docs/screenshot/link-testing-2.png)
 
 ## **Post Development Testing**
 ### **Validators**
