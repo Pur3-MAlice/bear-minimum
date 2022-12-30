@@ -14,6 +14,17 @@ h1, h2 {
     color: #6A761Aff;
 }
 
+h3, h4 {
+    color: #6A761Aff;
+    text-transform: uppercase;
+    font-family: Teko, sans-serif;
+    letter-spacing: 4px;
+}
+
+a {
+    color: #fff;
+}
+
 #logo {
     font-size: 320%;
     text-align: center;
@@ -43,12 +54,11 @@ h1, h2 {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 4px;
-    color: #fff;
     display: block;
     padding: 8px;
     background-color: #6A761Aff;
-    font-size: 25px;
     text-align: center;
+    font-size: 22px;
 }
 
 #active, a {
@@ -75,10 +85,6 @@ h1, h2 {
 }
 
 #call-to-action {
-    font-size: 130%;
-    text-transform: uppercase;
-    font-family: Teko, sans-serif;
-    letter-spacing: 4px;
     width: 100%;
     height: 100px;
     padding-top: 20px;
@@ -88,7 +94,7 @@ h1, h2 {
     text-align: center;
 }
 
-#call-to-action, h2, a {
+#call-to-action h2 {
     color: #fff;
     font-size: 30px;
 }
@@ -99,11 +105,8 @@ h1, h2 {
 
 /* blog links and images */
 #blog-header h3 {
-    color: #6A761Aff;
     text-align: center;
     font-size: 320%;
-    font-family: Teko, sans-serif;
-    text-transform: uppercase;
 }
 
 #blog-section {
@@ -117,8 +120,6 @@ h1, h2 {
 }
 
 #blog-section p {
-    color: #000;
-    text-decoration: none;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -131,38 +132,28 @@ h1, h2 {
 
 #blog-section strong {
     color: #6A761Aff;
-    text-align: center;
     text-transform: uppercase;
 }
 
 /* about teaser second cta*/
 #about-teaser {
-    margin: auto;
     width: 75%;
-    padding: 10px;
     padding-bottom: 50px;
 }
 
 #about-teaser h3 {
-    color: #6A761Aff;
     text-align: center;
     font-size: 320%;
-    font-family: Teko, sans-serif;
-    text-transform: uppercase;
 }
 
 #about-teaser p {
-    color: #000;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     text-align: center;
 }
 
 #about-teaser a {
-    color: #000;
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    text-align: center;
     color: rgb(61, 68, 15);
 }
 
@@ -173,24 +164,6 @@ h1, h2 {
 
 #second-cta {
     text-decoration: underline;
-}
-
-/* podcasts */
-#podcasts h3 {
-    color: #6A761Aff;
-    text-align: center;
-    font-size: 320%;
-    font-family: Teko, sans-serif;
-    text-transform: uppercase;
-    padding-top: 25px;
-}
-
-#podcasts div {
-    display: grid;
-    padding: 2rem;
-    grid-template-columns: 50% 3fr;
-    gap: 1rem;
-    align-items: center;
 }
 
 /* social media and copyright */
@@ -250,21 +223,14 @@ footer {
 
 #mission-hub h3 {
     font-size: 280%;
-    text-transform: uppercase;
-    font-family: Teko, sans-serif;
-    letter-spacing: 4px;
-    color: #6A761Aff;
 }
 
 #mission-hub h4 {
-    font-size: 26px;
     font-family: Montserrat, sans-serif;
-    color: #6A761Aff;
 }
 
 #mission-hub p {
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
     text-align: justify;
 }
 
@@ -306,14 +272,8 @@ hr {
 }
 
 #mission-image {
-    width: 300px;
     height: 300px;
-    padding: 30px;
-    border-style: solid;
     border-color: #fff;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
 }
 
 #mission-image-bg {
@@ -323,64 +283,33 @@ hr {
 }
 
 /*blog page*/
-#blog-page-call-to-action {
-    font-size: 130%;
-    text-transform: uppercase;
-    font-family: Teko, sans-serif;
-    letter-spacing: 4px;
-    width: 100%;
-    height: 100px;
-    padding-top: 20px;
-    background-color: rgba(73, 57, 13, 0.7);
-    bottom: 150px;
-    position: absolute;
-    text-align: center;
-}
-
-#blog-page-call-to-action a:hover {
-    color: #FDF2C9ff;
-}
-
 .content-area h3 {
     font-size: 280%;
-    text-transform: uppercase;
-    font-family: Teko, sans-serif;
-    letter-spacing: 4px;
-    color: #6A761Aff;
     text-align: center;
-    padding: 15px;
-    display: grid;
-    align-items: center;
     max-width: 800px;
 }
 
 .content-area h4 {
+    font-size: 22px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    padding: 15px;
+    max-width: 800px;
+}
+
+.content-area h5 {
     font-size: 26px;
     font-family: Montserrat, sans-serif;
     color: #6A761Aff;
     text-align: center;
     padding: 15px;
-    display: grid;
-    align-items: center;
-    max-width: 800px;
-}
-
-.content-area h5 {
-    font-size: 22px;
-    font-family: Montserrat, sans-serif;
-    color: #6A761Aff;
-    padding: 15px;
-    display: grid;
-    align-items: center;
     max-width: 800px;
 }
 
 .content-area p {
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
     text-align: justify;
     padding: 15px;
-    align-items: center;
     max-width: 800px;
 }
 
@@ -389,23 +318,17 @@ hr {
 }
 
 .content-area ol {
-    display: grid;
-    align-items: center;
     max-width: 800px;
 }    
 
 .content-area ul {
-    display: grid;
-    align-items: center;
     max-width: 800px;
 }   
 
 .content-area ul li{
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
     padding: 5px;
     margin-left: 35px;
-    list-style-type: disc;
 }
 
 .content-area ol li{
@@ -416,16 +339,25 @@ hr {
 }
 
 .content-area a {
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
     color: #000;
 }
 
 .content-area a:hover {
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
     color: #6A761Aff;
-    text-decoration: underline;
+}
+
+/* podcasts */
+#podcasts h3 {
+    text-align: center;
+    font-size: 320%;
+    padding-top: 25px;
+}
+
+#podcasts div {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 50% 3fr;
+    gap: 1rem;
 }
 
 /* signup form */
@@ -441,10 +373,10 @@ hr {
 
 .box-form h2 {
     padding: 25px;
+    color: #fff;
 }
 
 .input-form {
-    clear: left;
     color: #fff;
     background-color: rgba(73, 57, 13, 0.6);
     text-align: center;
@@ -462,13 +394,11 @@ label {
 
 .text-input {
     background: transparent;
-    color: #fafafa;
     height: 33px;
     margin: 5px 0 20px 0;
     width: 50%;
     border: 1px solid #fafafa;
     border-radius: 5px;
-    text-align: center;
 }
 
 .text-input:hover {
@@ -480,9 +410,8 @@ label {
     margin-bottom: 20px;
     border-radius: 8px;
     padding: 15px 32px 15px 32px;
-    text-align: center;
     background-color: #6A761Aff;
-    color: #fafafa;
+    color: #fff;
     display: block;
     font-size: 16.5px;
     font-family: Montserrat, sans-serif;
@@ -503,12 +432,6 @@ label {
 
 /* large tablets */
 @media (max-width: 770px) {
-    #main-image {
-    height: 95%;
-    width: 100%;
-    background: url(../images/hero-image-forest-smaller.jpg) no-repeat center center;
-    }
-
     #left-about {
         padding-top: 5px;
         width: 100%;
@@ -554,10 +477,13 @@ label {
         font-size: 20px;
     }
 
-    #call-to-action, h2, a {
+    #call-to-action h2 {
         font-size: 26px;
     }
 
+    #call-to-action a {
+        font-size: 26px;
+    }
     #blog-header h3 {
         font-size: 180%;
     }
@@ -619,7 +545,7 @@ label {
     #main-image {
         height: 95%;
         width: 100%;
-        background: url(../images/hero-image-forest-smallest.jpg) no-repeat center center;
+        background: url(../images/hero-smallest.jpg) no-repeat center center;
     }
 
     #logo {
@@ -631,7 +557,11 @@ label {
         padding: 6px;
     }
 
-    #call-to-action, h2, a {
+    #call-to-action h2 {
+        font-size: 20px;
+    }
+
+    #call-to-action a {
         font-size: 20px;
     }
 
@@ -707,7 +637,11 @@ label {
         padding: 5px;
     }
 
-    #call-to-action, h2, a {
+    #call-to-action h2 {
+        font-size: 18px;
+    }
+
+    #call-to-action a {
         font-size: 18px;
     }
 
