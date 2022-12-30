@@ -116,7 +116,7 @@ h1, h2 {
     margin: 0 auto;
 }
 
-#blog-section a {
+#blog-section p {
     color: #000;
     text-decoration: none;
     font-family: Montserrat, sans-serif;
@@ -635,7 +635,7 @@ label {
         font-size: 20px;
     }
 
-    #blog-section a {
+    #blog-section p {
         font-size: 16px;
     }
 
