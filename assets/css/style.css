@@ -71,7 +71,7 @@ h1, h2 {
 #main-image {
     height: 400px;
     width: 100%;
-    background: url('..images/hero-image-forest.jpg') no-repeat center center;
+    background: url(../images/hero-image-forest.jpg) no-repeat center center;
 }
 
 #call-to-action {
